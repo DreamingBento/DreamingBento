@@ -1,9 +1,43 @@
-body {
+h1 {
+    color: #83b6cc;
 }
 
 #header {
-    padding-top: 1rem;
-    background: rgba(0, 0, 0, 0.2);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+
+footer {
+    font-family: 'Lora', Georgia, serif;
+}
+
+.content {
+    /*padding-top: 200px;*/
+    background: rgba(0, 0, 0, 0.5);
+}
+
+div.row {
+}
+
+#body-landing {
+    background-image: url('/images/pandabento.jpg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 24px;
+}
+
+.twelve.wide.column {
+    font-size: 24px;
+}
+
+.row h1 {
+    font-size: 36px;
 }
 
 #home-item {
@@ -19,7 +53,7 @@ body {
     text-transform: uppercase;
     align-items: center;
     color: white;
-    -webkit-text-stroke: 1px black;
+    /*-webkit-text-stroke: 1px black;*/
 }
 
 #header-description {
@@ -28,5 +62,13 @@ body {
     font-style: italic;
     line-height: 1.5;
     color: white;
-    -webkit-text-stroke: 1px black;
+    /*-webkit-text-stroke: 1px black;*/
+}
+
+#intro {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.25rem;
+    color: white;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
 }
