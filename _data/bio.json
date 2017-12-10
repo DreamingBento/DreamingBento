@@ -13,7 +13,8 @@
         "first": "Neil",
         "major": "Computer Science",
         "titleone": "Gameplay Developer",
-        "titletwo": "Level Develop",
+        "titleoneabr": "Gameplay Dev.",
+        "titletwo": "Level Designer",
         "email": "neilnthings@gmail.com",
         "website": "https://neilnthings.github.io"
     },
@@ -21,8 +22,9 @@
         "name": "Kayla Abalos",
         "first": "Kayla",
         "major": "Academy for Creative Media",
-        "titleone": "Storyboard Designer",
-        "titletwo": "Final Design Artist",
+        "majorabr": "ACM",
+        "titleone": "Storyboard Artist",
+        "titletwo": "Final Art Designer",
         "email": "kabalos@hawaii.edu",
         "website": ""
     },
@@ -31,7 +33,8 @@
         "first": "Justin",
         "major": "Computer Science",
         "titleone": "Cinematic Developer",
-        "titletwo": "Level Developer",
+        "titleoneabr": "Cinematic Dev.",
+        "titletwo": "Level Designer",
         "email": "jkbishay@hawaii.edu",
         "website": "https://github.com/jkbishay"
     },
@@ -39,8 +42,9 @@
         "name": "Kaeli Giron",
         "first": "Kaeli",
         "major": "Academy for Creative Media",
+        "majorabr": "ACM",
         "titleone": "Concept Artist",
-        "titletwo": "Final Design Artist",
+        "titletwo": "Final Art Designer",
         "email": "kaelig@hawaii.edu",
         "website": ""
     },
@@ -51,7 +55,7 @@
         "nickn": "Mickey",
         "major": "Computer Science",
         "titleone": "Web Developer",
-        "titletwo": "Level Developer",
+        "titletwo": "Level Designer",
         "email": "micky.jm4@gmail.com",
         "website": "https://mickyjm.github.io"
     }

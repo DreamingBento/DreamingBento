@@ -17,7 +17,7 @@ button {
     font-family: 'Karla', Arial, sans-serif;
 }
 
-#body-default {
+#body-landing {
     background-image: url('/images/pandabento.jpg');
     background-position:center center;
     background-repeat:no-repeat;
@@ -31,6 +31,17 @@ button {
 
 #body-about {
     background-image: url('/images/pandasbento.jpg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#body-game {
+    background-image: url('/images/bearbento.jpg');
     background-position:center center;
     background-repeat:no-repeat;
     -webkit-background-size: cover;
@@ -76,7 +87,7 @@ button {
     color: white;
 }
 
-#home {
+#landing {
     font-family: 'Lora', Georgia, serif;
     color: white;
     margin-left: 1.25em;
