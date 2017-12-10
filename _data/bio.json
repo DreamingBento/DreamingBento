@@ -7,5 +7,52 @@
         "phone": "",
         "website": "https://dreamingbento.github.io",
         "summary": "We are just a team of people dreaming about both bentos and developing video games. We formed our team at the University of Hawaiʻi at Mānoa to create a video game in which we saw potential in. We did our very best to create the video game and we do hope you will enjoy it as much as we made it."
+    },
+    "neil": {
+        "name": "Neil Teves",
+        "first": "Neil",
+        "major": "Computer Science",
+        "titleone": "Gameplay Developer",
+        "titletwo": "Level Develop",
+        "email": "neilnthings@gmail.com",
+        "website": "https://neilnthings.github.io"
+    },
+    "kayla":{
+        "name": "Kayla Abalos",
+        "first": "Kayla",
+        "major": "Academy for Creative Media",
+        "titleone": "Storyboard Designer",
+        "titletwo": "Final Design Artist",
+        "email": "kabalos@hawaii.edu",
+        "website": ""
+    },
+    "justin":{
+        "name": "Justin Bishay",
+        "first": "Justin",
+        "major": "Computer Science",
+        "titleone": "Cinematic Developer",
+        "titletwo": "Level Developer",
+        "email": "jkbishay@hawaii.edu",
+        "website": "https://github.com/jkbishay"
+    },
+    "kaeli":{
+        "name": "Kaeli Giron",
+        "first": "Kaeli",
+        "major": "Academy for Creative Media",
+        "titleone": "Concept Artist",
+        "titletwo": "Final Design Artist",
+        "email": "kaelig@hawaii.edu",
+        "website": ""
+    },
+    "mickey":{
+        "name": "Michael Mangrobang",
+        "first": "Michael",
+        "nickname": "Mickey Mangrobang",
+        "nickn": "Mickey",
+        "major": "Computer Science",
+        "titleone": "Web Developer",
+        "titletwo": "Level Developer",
+        "email": "micky.jm4@gmail.com",
+        "website": "https://mickyjm.github.io"
     }
 }
