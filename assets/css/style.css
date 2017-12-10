@@ -1,27 +1,35 @@
 h1 {
+    font-family: 'Lora', Georgia, serif;
     color: #83b6cc;
 }
 
 #header {
     padding-top: 100px;
     padding-bottom: 50px;
-    /*background: rgba(0, 0, 0, 0.5);*/
 }
 
 footer {
     font-family: 'Lora', Georgia, serif;
 }
 
-.content {
-    /*padding-top: 200px;*/
-    background: rgba(0, 0, 0, 0.5);
+button {
+    font-family: 'Karla', Arial, sans-serif;
 }
 
-div.row {
-}
-
-#body-landing {
+#body-default {
     background-image: url('/images/pandabento.jpg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 24px;
+}
+
+#body-about {
+    background-image: url('/images/pandasbento.jpg');
     background-position:center center;
     background-repeat:no-repeat;
     -webkit-background-size: cover;
@@ -65,10 +73,28 @@ div.row {
     /*-webkit-text-stroke: 1px black;*/
 }
 
-#intro {
+#home {
     font-family: 'Lora', Georgia, serif;
     font-size: 1.25rem;
     color: white;
     margin-left: 1.25em;
     margin-right: 1.25em;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#about {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.25rem;
+    color: white;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#about-header {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#quote-block {
+    color: gray;
 }

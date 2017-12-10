@@ -1,20 +1,18 @@
+---
+layout: about
+---
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            {{ site.title }}
-        </title>
-        {% include head.html %}
-    </head>
-    <body id="body-default">
-        <div id="home" class="ui centered grid container content">
+    {% include head.html %}
+    <body id="body-about">
+        <div id="about" class="ui centered grid container content">
             <div class="row">
                 {% include menu.html %}
             </div>
-            <div class="row">
+            <div id="about-header" class="row">
                 {% include header.html %}
             </div>
-            <div class="ui inverted divider"></div>
+            <div class="ui divider"></div>
             {{ content }}
             <div class="row">
                 {% include footer.html %}

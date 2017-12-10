@@ -25,7 +25,8 @@ url: "https://dreamingbento.github.io" # the base hostname & protocol for your s
 # Build settings
 markdown: kramdown
 #theme: minima
-theme-home: landing.html
+theme-home: home.html
+theme-about: aboutus.html
 plugins:
   - jekyll-feed
 
