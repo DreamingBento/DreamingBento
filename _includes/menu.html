@@ -1,7 +1,32 @@
 <div class="ui top inverted three item fixed menu">
-    <div class="ui centered grid container">
-        <a class="item" href="{{ site.baseurl }}/">DREAMING BENTO</a>
-        <a class="item" href="{{ site.baseurl }}/about">ABOUT</a>
-        <a class="ui simple dropdown item" href="{{ site.baseurl}}/playto">PLAYTO</a>
+    <div class="ui container">
+        <a class="centered item" href="{{ site.baseurl }}/">DREAMING BENTO</a>
+        <div class="ui dropdown item">ABOUT
+            <div class="menu">
+                <a class="item" href="{{ site.baseurl }}/about/">THE TEAM</a>
+                <a class="item" href="{{ site.baseurl }}/about/">NEIL</a>
+                <a class="item" href="{{ site.baseurl }}/about/">KAYLA</a>
+                <a class="item" href="{{ site.baseurl }}/about/">JUSTIN</a>
+                <a class="item" href="{{ site.baseurl }}/about/">KAELI</a>
+                <a class="item" href="{{ site.baseurl }}/about/">MICKEY</a>
+            </div>
+        </div>
+        <div class="ui dropdown item">PLAYTO
+            <div class="menu">
+                <a class="item" href="{{ site.baseurl }}/playto">ABOUT THE GAME</a>
+                <a class="item" href="{{ site.baseurl }}/about/">STORY</a>
+                <a class="item" href="{{ site.baseurl }}/playto/concept-art/">CONCEPT ART</a>
+                <a class="item" href="{{ site.baseurl }}/about/">PLAY NOW</a>
+            </div>
+        </div>
     </div>
 </div>
+
+<script>
+$('.dropdown')
+  .dropdown({
+    // you can use any ui transition
+    transition: 'drop'
+  })
+;
+</script>
