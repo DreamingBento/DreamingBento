@@ -55,7 +55,7 @@ button {
     font-size: 24px;
 }
 
-.ten.wide.column {
+.ten.wide.column, .five.wide.column {
     font-size: 18px;
 }
 
