@@ -1,8 +1,8 @@
-<div class="equal width row">
-    <div class="column">
-        <img class="ui right floated large rounded bordered image" src="/images/jasonleighquote.jpg" />
+<div id="quote-row" class="centered equal width row">
+    <div id="quote-picture" class="six wide column">
+        <img class="ui fluid rounded bordered image" src="/images/jasonleighquote.jpg" />
     </div>
-    <div id="quote-block" class="left aligned middle aligned column">
+    <div id="quote-block" class="left aligned middle aligned six wide column">
         <span id="quote">“These guys are good!”</span>
         <br />
         <em>
@@ -97,3 +97,10 @@
 </div>
 
 <div class="ui divider"></div>
+
+<script>
+$('#quote-row')
+    .transition('hide')
+    .transition('fade right', '2s')
+;
+</script>

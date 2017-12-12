@@ -1,6 +1,6 @@
 <div class="row">
     <div class="twelve wide column">
-        <img class="ui fluid bordered image" src="/images/playtostartmenu.png" />
+        <img class="ui fluid bordered image" id="playto-banner" src="/images/playtostartmenu.png" />
     </div>
 </div>
 
@@ -103,3 +103,11 @@
 </div>
 
 <div class="ui divider"></div>
+
+<script>
+$('#playto-banner')
+    .transition('hide')
+    .transition('fly down', '1s')
+    .transition('tada', '1s')
+;
+</script>

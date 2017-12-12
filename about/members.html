@@ -1,0 +1,48 @@
+---
+layout: about
+title: Members
+---
+<a class="ui raised card" onclick="showModal()">
+    <img class="ui card" src="/images/jasonleigh.jpg" />
+    <div class="content">
+        <div class="header">
+            Jason Leigh
+        </div>
+        <div class="meta">
+            ICS Professor
+        </div>
+    </div>
+</a>
+
+
+
+<div class="ui modal">
+  <i class="close icon"></i>
+  <div class="header">
+    Justin Bishay
+  </div>
+  <div class="image content">
+    <div class="ui large image">
+      <img src="/images/justin.JPG">
+    </div>
+    <div class="description">
+      <div class="ui header">About Me</div>
+      <p>Hey guys! The name is Justin Bishay.</p>
+    </div>
+  </div>
+  <div class="actions">
+    <div class="ui positive right labeled icon button">
+      Close
+      <i class="x icon"></i>
+    </div>
+  </div>
+</div>
+
+<script>
+function showModal() {
+    $('.ui.modal')
+    .modal('setting', 'transition', 'vertical flip')
+    .modal('show')
+    ;
+}
+</script>
