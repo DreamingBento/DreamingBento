@@ -16,7 +16,9 @@
         "titleoneabr": "Gameplay Dev.",
         "titletwo": "Level Designer",
         "email": "neilnthings@gmail.com",
-        "website": "https://neilnthings.github.io"
+        "website": "https://neilnthings.github.io",
+        "linkedin": "https://www.linkedin.com/in/neil-teves-13375aa2",
+        "bio": "I'm a coder and illustrator with a solid understanding of application development and graphic design.  I feel that having these two different skills greatly complement each other.  Having that logical mindset of algorithms and being able to use my imagination/creativity when designing visuals lets me find solutions that may not come to a person who is solely relying on one way of thinking."
     },
     "kayla":{
         "name": "Kayla Abalos",
@@ -26,7 +28,9 @@
         "titleone": "Storyboard Artist",
         "titletwo": "Final Art Designer",
         "email": "kabalos@hawaii.edu",
-        "website": ""
+        "website": "",
+        "linkedin": "",
+        "bio": "Hello! My name is Kayla."
     },
     "justin":{
         "name": "Justin Bishay",
@@ -36,7 +40,9 @@
         "titleoneabr": "Cinematic Dev.",
         "titletwo": "Level Designer",
         "email": "jkbishay@hawaii.edu",
-        "website": "https://github.com/jkbishay"
+        "website": "https://github.com/jkbishay",
+        "linkedin": "",
+        "bio": "Hello! My name is Justin."
     },
     "kaeli":{
         "name": "Kaeli Giron",
@@ -46,7 +52,9 @@
         "titleone": "Concept Artist",
         "titletwo": "Final Art Designer",
         "email": "kaelig@hawaii.edu",
-        "website": ""
+        "website": "",
+        "linkedin": "",
+        "bio": "Hello! My name is Kaeli."
     },
     "mickey":{
         "name": "Michael Mangrobang",
@@ -57,6 +65,8 @@
         "titleone": "Web Developer",
         "titletwo": "Level Designer",
         "email": "micky.jm4@gmail.com",
-        "website": "https://mickyjm.github.io"
+        "website": "https://mickyjm.github.io",
+        "linkedin": "https://www.linkedin.com/in/mickyjm/",
+        "bio": "Hello! My name is Mickey!"
     }
 }

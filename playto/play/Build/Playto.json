@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Playto.data.unityweb",
+"asmCodeUrl": "Playto.asm.code.unityweb",
+"asmMemoryUrl": "Playto.asm.memory.unityweb",
+"asmFrameworkUrl": "Playto.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

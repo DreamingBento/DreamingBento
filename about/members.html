@@ -3,39 +3,35 @@ layout: about
 title: Members
 ---
 <a class="ui raised card" onclick="showModal()">
-    <img class="ui card" src="/images/jasonleigh.jpg" />
+    <img class="ui card" src="https://neilnthings.github.io/images/photo.jpg" />
     <div class="content">
-        <div class="header">
-            Jason Leigh
-        </div>
-        <div class="meta">
-            ICS Professor
-        </div>
+        <div class="header">{{ site.data.bio.neil.name }}</div>
+        <div class="meta">{{ site.data.bio.neil.major }}</div>
     </div>
 </a>
 
-
-
 <div class="ui modal">
-  <i class="close icon"></i>
-  <div class="header">
-    Justin Bishay
-  </div>
-  <div class="image content">
-    <div class="ui large image">
-      <img src="/images/justin.JPG">
+    <div class="header">
+        {{ site.data.bio.neil.name }}
     </div>
-    <div class="description">
-      <div class="ui header">About Me</div>
-      <p>Hey guys! The name is Justin Bishay.</p>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="https://neilnthings.github.io/images/photo.jpg">
+        </div>
+        <div class="description">
+            <div class="ui header">{{ site.data.bio.neil.major }}</div>
+            <p>{{ site.data.bio.neil.bio }}</p>
+            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.neil.email }}">{{ site.data.bio.neil.email }}</a>&emsp;
+            <i class="github alternate icon"></i><a href="{{ site.data.bio.neil.website }}">neilnthings</a>&emsp;
+            <i class="linkedin square icon"></i><a href="{{ site.data.bio.neil.linkedin }}">neilteves</i></a></p>
+        </div>
     </div>
-  </div>
   <div class="actions">
-    <div class="ui positive right labeled icon button">
-      Close
-      <i class="x icon"></i>
+        <div class="ui positive right labeled icon button">
+            Close
+            <i class="x icon"></i>
+        </div>
     </div>
-  </div>
 </div>
 
 <script>
