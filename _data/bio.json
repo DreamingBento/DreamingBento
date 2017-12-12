@@ -8,53 +8,55 @@
         "website": "https://dreamingbento.github.io",
         "summary": "We are just a team of people dreaming about both bentos and developing video games. We formed our team at the University of Hawaiʻi at Mānoa to create a video game in which we saw potential in. We did our very best to create the video game and we do hope you will enjoy it as much as we made it."
     },
+    "playto": {
+        "name": "Playto",
+        "summary": "Plato, a ball of Play-Doh, was formed when a little girl mushed and molded a wide range of colored Play-Doh. She then left him aside, which made him lose his color. Join Plato in meeting and rescuing other toys, in his quest to find happiness and color in his life."
+    },
     "neil": {
         "name": "Neil Teves",
         "first": "Neil",
         "major": "Computer Science",
-        "titleone": "Gameplay Developer",
-        "titleoneabr": "Gameplay Dev.",
-        "titletwo": "Level Designer",
+        "majorabr": "CS",
+        "title": "Lead Game Programmer",
         "email": "neilnthings@gmail.com",
         "website": "https://neilnthings.github.io",
+        "github": "https://github.com/neilnthings",
         "linkedin": "https://www.linkedin.com/in/neil-teves-13375aa2",
         "bio": "I'm a coder and illustrator with a solid understanding of application development and graphic design.  I feel that having these two different skills greatly complement each other.  Having that logical mindset of algorithms and being able to use my imagination/creativity when designing visuals lets me find solutions that may not come to a person who is solely relying on one way of thinking."
     },
     "kayla":{
-        "name": "Kayla Abalos",
-        "first": "Kayla",
-        "major": "Academy for Creative Media",
+        "name": "Kayla Mae Abalos",
+        "first": "Kayla Mae",
+        "major": "Academy for Creative Media, Animation",
         "majorabr": "ACM",
-        "titleone": "Storyboard Artist",
-        "titletwo": "Final Art Designer",
-        "email": "kabalos@hawaii.edu",
+        "title": "Lead Game Artist",
+        "email": "kaylamaeabalos@gmail.com",
         "website": "",
-        "linkedin": "",
-        "bio": "Hello! My name is Kayla."
+        "linkedin": "https://www.linkedin.com/in/kayla-mae-abalos-08a631b8",
+        "bio": "I am an artist and animator with an interest in 2D animation and creating concept art. The conception of ideas from stories to characters, especially intrigue me with the limitless possibilities of one's own creativity. This stemmed from my childhood of growing up watching cartoons and playing video games. I hope to one day share my own stories like those that have brought me so much inspiration to be the artist I am today."
     },
     "justin":{
         "name": "Justin Bishay",
         "first": "Justin",
         "major": "Computer Science",
-        "titleone": "Cinematic Developer",
-        "titleoneabr": "Cinematic Dev.",
-        "titletwo": "Level Designer",
+        "majorabr": "CS",
+        "title": "Game Programmer",
         "email": "jkbishay@hawaii.edu",
-        "website": "https://github.com/jkbishay",
+        "website": "https://justinbishay.wixsite.com/portfolio",
+        "github": "https://github.com/jkbishay",
         "linkedin": "",
-        "bio": "Hello! My name is Justin."
+        "bio": "I am a programmer and passionate gamer with an interest in video game development. The endless possibilities and adventures that exist in the world of gaming has captivated me for all of my life. I find progamming and game creation to be very similar to playing a video game; coding is a seemingly endless sandbox of creation that is only limited to the creator's imagination where the only rules are that of the coding language. The problem solving and critical thinking from gaming as a child is an engaging experience that has carried over to my coding career."
     },
     "kaeli":{
         "name": "Kaeli Giron",
         "first": "Kaeli",
         "major": "Academy for Creative Media",
         "majorabr": "ACM",
-        "titleone": "Concept Artist",
-        "titletwo": "Final Art Designer",
+        "title": "Game Artist",
         "email": "kaelig@hawaii.edu",
         "website": "",
         "linkedin": "",
-        "bio": "Hello! My name is Kaeli."
+        "bio": "Hello! My name is Kaeli, I am an illustrator and animator. My passion for art came at a young age. I started to follow the direction to be an artist and this lead me to find interest in concept art and character development. I hope to pursue being a concept artist telling stories and helping create them as an animator."
     },
     "mickey":{
         "name": "Michael Mangrobang",
@@ -62,10 +64,11 @@
         "nickname": "Mickey Mangrobang",
         "nickn": "Mickey",
         "major": "Computer Science",
-        "titleone": "Web Developer",
-        "titletwo": "Level Designer",
+        "majorabr": "CS",
+        "title": "Game Programmer",
         "email": "micky.jm4@gmail.com",
         "website": "https://mickyjm.github.io",
+        "github": "https://github.com/mickyjm",
         "linkedin": "https://www.linkedin.com/in/mickyjm/",
         "bio": "Hello! My name is Mickey!"
     }

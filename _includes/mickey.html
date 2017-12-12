@@ -1,0 +1,40 @@
+<a class="ui raised card" onclick="mickeyModal()">
+    <img class="ui image" src="https://mickyjm.github.io/images/mMangro-1.jpg" />
+    <div class="content">
+        <div class="header">{{ site.data.bio.mickey.name }}</div>
+        <div class="meta">{{ site.data.bio.mickey.major }}</div>
+    </div>
+</a>
+
+<div id="mickeyModal" class="ui modal">
+    <div class="header">
+        {{ site.data.bio.mickey.name }}
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="/images/justin.JPG">
+        </div>
+        <div class="description">
+            <div class="ui header">{{ site.data.bio.mickey.major }}</div>
+            <p>{{ site.data.bio.mickey.bio }}</p>
+            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.mickey.email }}">{{ site.data.bio.mickey.email }}&emsp;
+            <i class="github alternative icon"></i><a href="{{ site.data.bio.mickey.website }}">mickyjm</a>&emsp;
+            <i class="linkedin square icon"></i><a href="{{ site.data.bio.mickey.linkedin }}">mickyjm</a></p>
+        </div>
+    </div>
+  <div class="actions">
+        <div class="ui positive right labeled icon button">
+            Close
+            <i class="x icon"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+function mickeyModal() {
+    $('#mickeyModal')
+    .modal('setting', 'transition', 'vertical flip')
+    .modal('show')
+    ;
+}
+</script>

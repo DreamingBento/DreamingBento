@@ -1,0 +1,39 @@
+<a class="ui raised card" onclick="justinModal()">
+    <img class="ui image" src="https://neilnthings.github.io/images/photo.jpg" />
+    <div class="content">
+        <div class="header">{{ site.data.bio.justin.name }}</div>
+        <div class="meta">{{ site.data.bio.justin.major }}</div>
+    </div>
+</a>
+
+<div id="justinModal" class="ui modal">
+    <div class="header">
+        {{ site.data.bio.justin.name }}
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="/images/justin.JPG">
+        </div>
+        <div class="description">
+            <div class="ui header">{{ site.data.bio.justin.major }}</div>
+            <p>{{ site.data.bio.justin.bio }}</p>
+            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.justin.email }}">{{ site.data.bio.justin.email }}&emsp;
+            <i class="github alternative icon"></i><a href="{{ site.data.bio.justin.website }}">jkbishay</a></p>
+        </div>
+    </div>
+  <div class="actions">
+        <div class="ui positive right labeled icon button">
+            Close
+            <i class="x icon"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+function justinModal() {
+    $('#justinModal')
+    .modal('setting', 'transition', 'vertical flip')
+    .modal('show')
+    ;
+}
+</script>

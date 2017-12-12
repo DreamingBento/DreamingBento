@@ -1,0 +1,38 @@
+<a class="ui raised card" onclick="kaeliModal()">
+    <img class="ui image" src="https://neilnthings.github.io/images/photo.jpg" />
+    <div class="content">
+        <div class="header">{{ site.data.bio.kaeli.name }}</div>
+        <div class="meta">{{ site.data.bio.kaeli.major }}</div>
+    </div>
+</a>
+
+<div id="kaeliModal" class="ui modal">
+    <div class="header">
+        {{ site.data.bio.kaeli.name }}
+    </div>
+    <div class="image content">
+        <div class="ui large image">
+            <img src="/images/kaeli.jpg">
+        </div>
+        <div class="description">
+            <div class="ui header">{{ site.data.bio.kaeli.major }}</div>
+            <p>{{ site.data.bio.kaeli.bio }}</p>
+            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.kaeli.email }}">{{ site.data.bio.kaeli.email }}</a></p>
+        </div>
+    </div>
+  <div class="actions">
+        <div class="ui positive right labeled icon button">
+            Close
+            <i class="x icon"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+function kaeliModal() {
+    $('#kaeliModal')
+    .modal('setting', 'transition', 'vertical flip')
+    .modal('show')
+    ;
+}
+</script>

@@ -1,44 +1,32 @@
 ---
-layout: about
+layout: team
 title: Members
 ---
-<a class="ui raised card" onclick="showModal()">
-    <img class="ui card" src="https://neilnthings.github.io/images/photo.jpg" />
-    <div class="content">
-        <div class="header">{{ site.data.bio.neil.name }}</div>
-        <div class="meta">{{ site.data.bio.neil.major }}</div>
-    </div>
-</a>
 
-<div class="ui modal">
-    <div class="header">
-        {{ site.data.bio.neil.name }}
-    </div>
-    <div class="image content">
-        <div class="ui large image">
-            <img src="https://neilnthings.github.io/images/photo.jpg">
-        </div>
-        <div class="description">
-            <div class="ui header">{{ site.data.bio.neil.major }}</div>
-            <p>{{ site.data.bio.neil.bio }}</p>
-            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.neil.email }}">{{ site.data.bio.neil.email }}</a>&emsp;
-            <i class="github alternate icon"></i><a href="{{ site.data.bio.neil.website }}">neilnthings</a>&emsp;
-            <i class="linkedin square icon"></i><a href="{{ site.data.bio.neil.linkedin }}">neilteves</i></a></p>
-        </div>
-    </div>
-  <div class="actions">
-        <div class="ui positive right labeled icon button">
-            Close
-            <i class="x icon"></i>
-        </div>
+<div class="row">
+    <h1>The Members</h1>
+</div>
+
+<div class="row">
+    <h2>Academy for Creative Media</h2>
+</div>
+
+<div class="row">
+    <div class="ui stackable cards">
+        {% include kayla.html %}
+        {% include kaeli.html %}
     </div>
 </div>
 
-<script>
-function showModal() {
-    $('.ui.modal')
-    .modal('setting', 'transition', 'vertical flip')
-    .modal('show')
-    ;
-}
-</script>
+<div class="ui divider"></div>
+
+<div class="row">
+    <h2>Computer Science</h2>
+</div>
+<div class="row">
+    <div class="ui stackable cards">
+        {% include neil.html %}
+        {% include mickey.html %}
+        {% include justin.html %}
+    </div>
+</div>

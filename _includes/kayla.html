@@ -1,0 +1,38 @@
+<a class="ui raised card" onclick="kaylaModal()">
+    <img class="ui image" src="https://neilnthings.github.io/images/photo.jpg" />
+    <div class="content">
+        <div class="header">{{ site.data.bio.kayla.name }}</div>
+        <div class="meta">{{ site.data.bio.kayla.major }}</div>
+    </div>
+</a>
+
+<div id="kaylaModal" class="ui modal">
+    <div class="header">
+        {{ site.data.bio.kayla.name }}
+    </div>
+    <div class="image content">
+        <div class="ui small image">
+            <img src="https://neilnthings.github.io/images/photo.jpg" />
+        </div>
+        <div class="description">
+            <div class="ui header">{{ site.data.bio.kayla.major }}</div>
+            <p>{{ site.data.bio.kayla.bio }}</p>
+            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.kayla.email }}">{{ site.data.bio.kayla.email }}</a></p>
+        </div>
+    </div>
+  <div class="actions">
+        <div class="ui positive right labeled icon button">
+            Close
+            <i class="x icon"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+function kaylaModal() {
+    $('#kaylaModal')
+    .modal('setting', 'transition', 'vertical flip')
+    .modal('show')
+    ;
+}
+</script>

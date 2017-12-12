@@ -51,6 +51,17 @@ button {
     background-attachment: fixed;
 }
 
+#body-team {
+    background-image: url('/images/sleepingbento.jpeg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .twelve.wide.column {
     font-size: 24px;
 }
