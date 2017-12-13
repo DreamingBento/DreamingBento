@@ -1,8 +1,12 @@
 <a class="ui raised card" onclick="neilModal()">
-    <img class="ui image" src="https://neilnthings.github.io/images/photo.jpg" />
+    <img class="ui image" src="{{ site.data.bio.neil.headshot }}" />
     <div class="content">
         <div class="header">{{ site.data.bio.neil.name }}</div>
         <div class="meta">{{ site.data.bio.neil.major }}</div>
+    </div>
+    <div class="ui bottom attached blue button">
+        <i class="browser icon"></i>
+        About
     </div>
 </a>
 
@@ -11,15 +15,36 @@
         {{ site.data.bio.neil.name }}
     </div>
     <div class="image content">
-        <div class="ui large image">
-            <img src="https://neilnthings.github.io/images/photo.jpg">
+        <div class="ui image">
+            <img src="{{ site.data.bio.neil.toy }}">
         </div>
         <div class="description">
-            <div class="ui header">{{ site.data.bio.neil.major }}</div>
+            <div class="ui header">{{ site.data.bio.neil.major }} &mdash; {{ site.data.bio.neil.title }}</div>
             <p>{{ site.data.bio.neil.bio }}</p>
-            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.neil.email }}">{{ site.data.bio.neil.email }}</a>&emsp;
-            <i class="github alternate icon"></i><a href="{{ site.data.bio.neil.website }}">neilnthings</a>&emsp;
-            <i class="linkedin square icon"></i><a href="{{ site.data.bio.neil.linkedin }}">neilteves</i></a></p>
+            <div class="ui segment">
+                <div class="ui relaxed animated list">
+                    <div class="item">
+                        <div class="content">
+                                <i class="folder open icon"></i><a href="{{ site.data.bio.neil.website }}" target="_blank">Personal Website</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="mail icon"></i><a href="mailto:{{ site.data.bio.neil.email }}">{{ site.data.bio.neil.email }}</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="github alternate icon"></i><a href="{{ site.data.bio.neil.github }}" target="_blank">neilnthings</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="linkedin square icon"></i><a href="{{ site.data.bio.neil.linkedin }}" target="_blank">neilteves</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   <div class="actions">

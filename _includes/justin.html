@@ -1,8 +1,12 @@
 <a class="ui raised card" onclick="justinModal()">
-    <img class="ui image" src="https://neilnthings.github.io/images/photo.jpg" />
+    <img class="ui image" src="{{ site.data.bio.justin.headshot }}" />
     <div class="content">
         <div class="header">{{ site.data.bio.justin.name }}</div>
         <div class="meta">{{ site.data.bio.justin.major }}</div>
+    </div>
+    <div class="ui bottom attached blue button">
+        <i class="browser icon"></i>
+        About
     </div>
 </a>
 
@@ -11,14 +15,31 @@
         {{ site.data.bio.justin.name }}
     </div>
     <div class="image content">
-        <div class="ui large image">
-            <img src="/images/justin.JPG">
+        <div class="ui image">
+            <img src="{{ site.data.bio.justin.toy }}">
         </div>
         <div class="description">
-            <div class="ui header">{{ site.data.bio.justin.major }}</div>
+            <div class="ui header">{{ site.data.bio.justin.major }} &mdash; {{ site.data.bio.justin.title }}</div>
             <p>{{ site.data.bio.justin.bio }}</p>
-            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.justin.email }}">{{ site.data.bio.justin.email }}&emsp;
-            <i class="github alternative icon"></i><a href="{{ site.data.bio.justin.website }}">jkbishay</a></p>
+            <div class="ui segment">
+                <div class="ui relaxed animated list">
+                    <div class="item">
+                        <div class="content">
+                            <i class="open folder icon"></i><a href="{{ site.data.justin.website }}" target="_blank">Personal Website</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="mail icon"></i><a href="mailto:{{ site.data.bio.justin.email }}">{{ site.data.bio.justin.email }}</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="github alternate icon"></i><a href="{{ site.data.bio.justin.github }}" target="_blank">jkbishay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   <div class="actions">

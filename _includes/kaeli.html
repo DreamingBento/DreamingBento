@@ -1,8 +1,12 @@
 <a class="ui raised card" onclick="kaeliModal()">
-    <img class="ui image" src="https://neilnthings.github.io/images/photo.jpg" />
+    <img class="ui image" src="{{ site.data.bio.kaeli.headshot }}" />
     <div class="content">
         <div class="header">{{ site.data.bio.kaeli.name }}</div>
         <div class="meta">{{ site.data.bio.kaeli.major }}</div>
+    </div>
+    <div class="ui bottom attached blue button">
+        <i class="browser icon"></i>
+        About
     </div>
 </a>
 
@@ -11,13 +15,21 @@
         {{ site.data.bio.kaeli.name }}
     </div>
     <div class="image content">
-        <div class="ui large image">
-            <img src="/images/kaeli.jpg">
+        <div class="ui image">
+            <img src="{{ site.data.bio.kaeli.toy }}">
         </div>
         <div class="description">
-            <div class="ui header">{{ site.data.bio.kaeli.major }}</div>
+            <div class="ui header">{{ site.data.bio.kaeli.major }} &mdash; {{ site.data.bio.kaeli.title }}</div>
             <p>{{ site.data.bio.kaeli.bio }}</p>
-            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.kaeli.email }}">{{ site.data.bio.kaeli.email }}</a></p>
+            <div class="ui segment">
+                <div class="ui relaxed animated list">
+                    <div class="item">
+                        <div class="content">
+                            <i class="mail icon"></i><a href="mailto:{{ site.data.bio.kaeli.email }}">{{ site.data.bio.kaeli.email }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   <div class="actions">

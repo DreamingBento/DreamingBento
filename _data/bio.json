@@ -22,18 +22,23 @@
         "website": "https://neilnthings.github.io",
         "github": "https://github.com/neilnthings",
         "linkedin": "https://www.linkedin.com/in/neil-teves-13375aa2",
-        "bio": "I'm a coder and illustrator with a solid understanding of application development and graphic design.  I feel that having these two different skills greatly complement each other.  Having that logical mindset of algorithms and being able to use my imagination/creativity when designing visuals lets me find solutions that may not come to a person who is solely relying on one way of thinking."
+        "bio": "I'm a coder and illustrator with a solid understanding of application development and graphic design. I feel that having these two different skills greatly complement each other. Having that logical mindset of algorithms and being able to use my imagination/creativity when designing visuals lets me find solutions that may not come to a person who is solely relying on one way of thinking.",
+        "headshot": "/images/headshots/neil.jpg",
+        "toy": "/images/toys/neil.jpg"
     },
     "kayla":{
         "name": "Kayla Mae Abalos",
         "first": "Kayla Mae",
-        "major": "Academy for Creative Media, Animation",
+        "major": "Academy for Creative Media",
+        "majorsub": "Animation",
         "majorabr": "ACM",
         "title": "Lead Game Artist",
         "email": "kaylamaeabalos@gmail.com",
         "website": "",
         "linkedin": "https://www.linkedin.com/in/kayla-mae-abalos-08a631b8",
-        "bio": "I am an artist and animator with an interest in 2D animation and creating concept art. The conception of ideas from stories to characters, especially intrigue me with the limitless possibilities of one's own creativity. This stemmed from my childhood of growing up watching cartoons and playing video games. I hope to one day share my own stories like those that have brought me so much inspiration to be the artist I am today."
+        "bio": "I am an artist and animator with an interest in 2D animation and creating concept art. The conception of ideas from stories to characters, especially intrigue me with the limitless possibilities of one's own creativity. This stemmed from my childhood of growing up watching cartoons and playing video games. I hope to one day share my own stories like those that have brought me so much inspiration to be the artist I am today.",
+        "headshot": "/images/headshots/kayla.jpg",
+        "toy": "/images/toys/kayla.jpg"
     },
     "justin":{
         "name": "Justin Bishay",
@@ -45,7 +50,9 @@
         "website": "https://justinbishay.wixsite.com/portfolio",
         "github": "https://github.com/jkbishay",
         "linkedin": "",
-        "bio": "I am a programmer and passionate gamer with an interest in video game development. The endless possibilities and adventures that exist in the world of gaming has captivated me for all of my life. I find progamming and game creation to be very similar to playing a video game; coding is a seemingly endless sandbox of creation that is only limited to the creator's imagination where the only rules are that of the coding language. The problem solving and critical thinking from gaming as a child is an engaging experience that has carried over to my coding career."
+        "bio": "I am a programmer and passionate gamer with an interest in video game development. The endless possibilities and adventures that exist in the world of gaming has captivated me for all of my life. I find progamming and game creation to be very similar to playing a video game; coding is a seemingly endless sandbox of creation that is only limited to the creator's imagination where the only rules are that of the coding language. The problem solving and critical thinking from gaming as a child is an engaging experience that has carried over to my coding career.",
+        "headshot": "/images/headshots/justin.jpg",
+        "toy": "/images/toys/justin.jpg"
     },
     "kaeli":{
         "name": "Kaeli Giron",
@@ -56,10 +63,12 @@
         "email": "kaelig@hawaii.edu",
         "website": "",
         "linkedin": "",
-        "bio": "Hello! My name is Kaeli, I am an illustrator and animator. My passion for art came at a young age. I started to follow the direction to be an artist and this lead me to find interest in concept art and character development. I hope to pursue being a concept artist telling stories and helping create them as an animator."
+        "bio": "Hello! My name is Kaeli, I am an illustrator and animator. My passion for art came at a young age. I started to follow the direction to be an artist and this lead me to find interest in concept art and character development. I hope to pursue being a concept artist telling stories and helping create them as an animator.",
+        "headshot": "/images/headshots/kaeli.jpg",
+        "toy": "/images/toys/kaeli.jpg"
     },
     "mickey":{
-        "name": "Michael Mangrobang",
+        "name": "Michael (Mickey) Mangrobang",
         "first": "Michael",
         "nickname": "Mickey Mangrobang",
         "nickn": "Mickey",
@@ -70,6 +79,8 @@
         "website": "https://mickyjm.github.io",
         "github": "https://github.com/mickyjm",
         "linkedin": "https://www.linkedin.com/in/mickyjm/",
-        "bio": "Hello! My name is Mickey!"
+        "bio": "Hi! My name is Michael, but I like to go by Mickey (usually spelled Micky), just like the mouse. Like many people who major in Computer Science, I found my passion in programming through gaming. In games, we are able to control our actions, and through those actions, shape both the world and overall experience of the game. Much like games, programming not only gives me this ability, but also allows me to share the ability with other people. Giving them better control, a better experience and overall an amazing product.",
+        "headshot": "/images/headshots/mickey.jpg",
+        "toy": "/images/toys/mickey.jpg"
     }
 }

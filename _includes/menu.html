@@ -1,5 +1,5 @@
 <div class="ui top inverted three item fixed menu">
-    <div class="ui container">
+    <div class="ui container" onclick="menuDropdown()">
         <a class="centered item" href="{{ site.baseurl }}/">DREAMING BENTO</a>
         <div class="ui dropdown item">ABOUT
             <div class="menu">
@@ -16,12 +16,3 @@
         </div>
     </div>
 </div>
-
-<script>
-$('.dropdown')
-  .dropdown({
-    // you can use any ui transition
-    transition: 'drop'
-  })
-;
-</script>

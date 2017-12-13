@@ -13,6 +13,10 @@ footer {
     font-family: 'Lora', Georgia, serif;
 }
 
+#footer-image {
+    background-color: white;
+}
+
 button {
     font-family: 'Karla', Arial, sans-serif;
 }
@@ -123,4 +127,12 @@ button {
 
 #quote {
     font-size: 30px;
+}
+
+#kaylaImg {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }

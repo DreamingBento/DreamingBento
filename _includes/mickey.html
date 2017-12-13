@@ -1,8 +1,12 @@
 <a class="ui raised card" onclick="mickeyModal()">
-    <img class="ui image" src="https://mickyjm.github.io/images/mMangro-1.jpg" />
+    <img class="ui image" src="{{ site.data.bio.mickey.headshot }}" />
     <div class="content">
         <div class="header">{{ site.data.bio.mickey.name }}</div>
         <div class="meta">{{ site.data.bio.mickey.major }}</div>
+    </div>
+    <div class="ui bottom attached blue button">
+        <i class="browser icon"></i>
+        About
     </div>
 </a>
 
@@ -11,15 +15,36 @@
         {{ site.data.bio.mickey.name }}
     </div>
     <div class="image content">
-        <div class="ui large image">
-            <img src="/images/justin.JPG">
+        <div class="ui image">
+            <img src="{{ site.data.bio.mickey.toy }}">
         </div>
         <div class="description">
-            <div class="ui header">{{ site.data.bio.mickey.major }}</div>
+            <div class="ui header">{{ site.data.bio.mickey.major }} &mdash; {{ site.data.bio.mickey.title }}</div>
             <p>{{ site.data.bio.mickey.bio }}</p>
-            <p><i class="mail icon"></i><a href="mailto:{{ site.data.bio.mickey.email }}">{{ site.data.bio.mickey.email }}&emsp;
-            <i class="github alternative icon"></i><a href="{{ site.data.bio.mickey.website }}">mickyjm</a>&emsp;
-            <i class="linkedin square icon"></i><a href="{{ site.data.bio.mickey.linkedin }}">mickyjm</a></p>
+            <div class="ui segment">
+                <div class="ui relaxed animated list">
+                    <div class="item">
+                        <div class="content">
+                            <i class="open folder icon"></i><a href="{{ site.data.bio.mickey.website }}" target="_blank">Personal Website</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="mail icon"></i><a href="mailto:{{ site.data.bio.mickey.email }}">{{ site.data.bio.mickey.email }}</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="github alternate icon"></i><a href="{{ site.data.bio.mickey.github }}" target="_blank">mickyjm</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="linkedin square icon"></i><a href="{{ site.data.bio.mickey.linkedin }}" target="_blank">mickyjm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   <div class="actions">
