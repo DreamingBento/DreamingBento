@@ -26,35 +26,31 @@
     <h1>Play Playto Now!</h1>
 </div>
 
-<div class="row">
-    <h2>Browser Version</h2>
-</div>
+<div class="centered row">
+    <div class="five wide left aligned column">
+        <h2>Play in Browser!</h2>
+        Play the game through your browser!<br /><br />
+        <form action="{{ site.baseurl }}/playto/play/">
+            <button class="ui blue button">PLAY NOW!</button>
+        </form>
+        <br />*Requires WebGL support.
 
-<div class="row">
-    <div class="ten wide left aligned column">
-        Play Playto now! The game was created using Unity and built using WebGL, so you can run the game through your broswer. In order to play, just click the link right below and do make sure that your browser supports WebGL and is up-to-date.
+        <h2>Download!</h2>
+        Download the game onto your computer!<br /><br />
+        <!--<form>-->
+            <button class="ui blue button">WINDOWS</button>
+        <!--</form>--><br />
+        <br />*Not available yet.
     </div>
-</div>
 
-<div class="row">
-    <form action="{{ site.baseurl }}/playto/play/">
-        <button class="ui blue button">PLAY NOW!</button>
-    </form>
-</div>
-
-<div class="row">
-    <h2>Video Playthrough</h2>
-</div>
-
-<div class="row">
-    <div class="ten wide left aligned column">
-        If you are having trouble playing the demo through your browser, below is a video going through the demo.
+    <div class="five wide left aligned column">
+        <h2>Watch!</h2>
+        <a class="ui centered medium circular image" onclick="videoModal()">
+            <img src="/images/screencap.png"/>
+        </a>
+        <br />
+        Can't play in browser? Trouble downloading? Watch the video demo walkthrough!
     </div>
-</div>
-
-
-<div class="row">
-    <iframe width="784" height="441" src="https://www.youtube.com/embed/rF77Qwb10Bo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div class="ui divider"></div>
@@ -80,7 +76,7 @@
 
 <div class="row">
     <form action="{{ site.baseurl }}/playto/concept-art">
-        <button class="ui blue button">VIEW MORE</button>
+        <button class="ui large blue button">VIEW MORE</button>
     </form>
 </div>
 
@@ -98,6 +94,6 @@
 
 <div class="row">
     <form action="https://dreamingbento.wordpress.com/playto/updates/">
-        <button class="ui blue button">READ MORE</button>
+        <button class="ui large blue button">READ MORE</button>
     </form>
 </div>

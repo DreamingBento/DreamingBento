@@ -49,3 +49,10 @@ function mickeyModal() {
     .modal('show')
     ;
 }
+
+function videoModal() {
+    $('#videoModal')
+    .modal('setting', 'transition', 'scale')
+    .modal('show')
+    ;
+}
