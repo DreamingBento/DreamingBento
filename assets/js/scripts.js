@@ -56,3 +56,13 @@ function videoModal() {
     .modal('show')
     ;
 }
+
+$(document).ready(function() {
+    $('#playImg').hover(function(){
+        $(this).transition('jiggle');
+    }, function(){});
+
+    $('#landingImg').hover(function(){
+        $(this).transition('jiggle');
+    }, function(){});
+});
