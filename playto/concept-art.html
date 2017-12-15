@@ -6,28 +6,52 @@ title: Playto Concept Art
     <h1>Concept Art</h1>
 </div>
 
-<div class="equal width row">
-    <div class="column">
-        <img class="ui fluid bordered image" src="https://neilnthings.github.io/images/playdough.png" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="https://neilnthings.github.io/images/playdough_ball.png" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="https://neilnthings.github.io/images/playdough_stick.png" />
-    </div>
+<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/concept/neil/' %}
+        <div class="five wide column">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
 </div>
 
-<div class="equal width row">
-    <div class="column">
-        <img class="ui fluid bordered image" src="https://neilnthings.github.io/images/playdough_box.png" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="https://neilnthings.github.io/images/bearexample.png" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="https://neilnthings.github.io/images/unicornexample.png" />
-    </div>
+<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/concept/doll/' %}
+        <div class="five wide column">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/concept/kayla/' %}
+        <div class="five wide column">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/concept/kaeli/' %}
+        <div class="five wide column">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
 </div>
 
 <div class="ui divider"></div>
@@ -36,60 +60,14 @@ title: Playto Concept Art
     <h1>Storyboard</h1>
 </div>
 
-<div class="equal width row">
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/001.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/002.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/003.jpg" />
-    </div>
-</div>
-
-<div class="equal width row">
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/004.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/005.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/006.jpg" />
-    </div>
-</div>
-
-
-<div class="equal width row">
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/007.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/008.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/009.jpg" />
-    </div>
-</div>
-
-<div class="equal width row">
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/010.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/011.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/012.jpg" />
-    </div>
-</div>
-
-<div class="equal width row">
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/013.jpg" />
-    </div>
-    <div class="column">
-        <img class="ui fluid bordered image" src="/images/storyboard/014.jpg" />
-    </div>
+<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/storyboard/' %}
+        <div class="five wide column">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
 </div>
