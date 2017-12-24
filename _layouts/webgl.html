@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+        {% include head-unity.html %}
+    </head>
+    <body id="body-play">
+        <div id="about" class="ui centered grid container content">
+            <div class="row">
+                {% include menu.html %}
+            </div>
+            <div id="about-header" class="row">
+                {% include header.html %}
+            </div>
+            <div class="row">
+                <h1>Playto</h1>
+            </div>
+            <div class="row">
+                {{ content }}
+            </div>
+            {% include gamecontrols.html %}
+        </div>
+        {% include footer.html %}
+    </body>
+</html>

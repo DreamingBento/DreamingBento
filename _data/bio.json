@@ -10,6 +10,8 @@
     },
     "playto": {
         "name": "Playto",
+        "trailer": "https://www.youtube.com/embed/3oDPTKcFKlY",
+        "gameplay": "https://www.youtube.com/embed/t9powIuRYwA",
         "summary": "Plato, a ball of Play-Doh, was formed when a little girl mushed and molded a wide range of colored Play-Doh. She then left him aside, which made him lose his color. Join Plato in meeting and rescuing other toys, in his quest to find happiness and color in his life."
     },
     "neil": {
@@ -79,7 +81,7 @@
         "website": "https://mickyjm.github.io",
         "github": "https://github.com/mickyjm",
         "linkedin": "https://www.linkedin.com/in/mickyjm/",
-        "bio": "Hi! My name is Michael, but I like to go by Mickey (usually spelled Micky), just like the mouse. Like many people who major in Computer Science, I found my passion in programming through gaming. In games, we are able to control our actions, and through those actions, shape both the world and overall experience of the game. Much like games, programming not only gives me this ability, but also allows me to share the ability with other people. Giving them better control, a better experience and overall an amazing product.",
+        "bio": "Hi! My name is Michael, but I like to go by Mickey (usually spelled Micky), just like the mouse. Like many people who major in Computer Science, I found my passion in programming through gaming. In games, we are able to control our actions, and through those actions, shape both the world and overall experience of the game. Much like games, programming not only gives me this ability, but also allows me to share the ability; giving users better control, a better experience and overall an amazing product.",
         "headshot": "/images/headshots/mickey.jpg",
         "toy": "/images/toys/mickey.jpg"
     }

@@ -8,11 +8,17 @@
     </div>
 </div>
 
+<div class="row">
+    <form action="{{ site.baseurl }}/about/">
+        <button class="ui inverted blue huge button">THE TEAM</button>
+    </form>
+</div>
+
 <div class="ui inverted divider"></div>
 
 <div class="row">
     <div class="twelve wide column">
-        <div class="ui fluid bordered image">
+        <div id="landingImg" class="ui fluid bordered image">
             <img src="images/playtostartmenu.png" />
         </div>
     </div>
@@ -25,7 +31,7 @@
 </div>
 
 <div class="row">
-    <iframe width="1008" height="567" src="https://www.youtube.com/embed/rF77Qwb10Bo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <iframe width="1008" height="567" src="{{ site.data.bio.playto.trailer }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div class="row">
