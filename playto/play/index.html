@@ -8,19 +8,24 @@ id: webgl
     <h1>Playto</h1>
 </div>
 
-<div class="row">
+<div class="row desktop-only">
+    <div class="sixteen wide center aligned column">
 
-    <div class="webgl-content">
-        <div id="gameContainer" style="width: 960px; height: 600px"></div>
-        <div class="footer">
-            <div class="webgl-logo"></div>
-            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-            <div class="title">Playto</div>
+        <div class="desktop-only">
+        {% include game.html %}
         </div>
-    </div>
 
+        <div class="mobile-only">
+        {% include noshow.html %}
+        </div>
+
+    </div>
 </div>
 
-{% include gamecontrols.html %}
+<div class="desktop-only">
+    <div class="ui centered grid container">
+        {% include gamecontrols.html %}
+    </div>
+</div>
 
 <div class="ui hidden divider"></div>
