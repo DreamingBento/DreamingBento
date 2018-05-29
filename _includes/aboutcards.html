@@ -1,63 +1,13 @@
-<div class="ui doubling raised five cards">
-
-    <a class="black fluid card" href="{{ site.baseurl }}/about/members.html">
-        <div class="content">
-            <div class="header">{{ site.data.bio.justin.first }}</div>
-            <div class="meta">{{ site.data.bio.justin.majorabr }}</div>
+<div class="ui stackable raised five cards">
+    {% for member in site.data.bio.basics.members %}
+    <a class="{{ member.color }} fluid card" href="{{ site.baseurl }}/about/member/">
+        <div class="center aligned content">
+            <div class="header">{{ member.name }}</div>
+            <div class="meta">{{ member.major }}</div>
             <div class="description">
-                <p>
-                    {{ site.data.bio.justin.title }}
-                </p>
+                <p>{{ member.position }}</p>
             </div>
         </div>
     </a>
-
-    <a class="yellow fluid card" href="{{ site.baseurl }}/about/members.html">
-        <div class="content">
-            <div class="header">{{ site.data.bio.neil.first }}</div>
-            <div class="meta">{{ site.data.bio.neil.majorabr }}</div>
-            <div class="description">
-                <p>
-                    {{ site.data.bio.neil.title }}
-                </p>
-            </div>
-        </div>
-    </a>
-
-    <a class="teal fluid card" href="{{ site.baseurl }}/about/members.html">
-        <div class="content">
-            <div class="header">{{ site.data.bio.kayla.first }}</div>
-            <div class="meta">{{ site.data.bio.kayla.majorabr }}</div>
-            <div class="description">
-                <p>
-                    {{ site.data.bio.kayla.title }}
-                </p>
-            </div>
-        </div>
-    </a>
-
-    <a class="red fluid card" href="{{ site.baseurl }}/about/members.html">
-        <div class="content">
-            <div class="header">{{ site.data.bio.mickey.nickn  }}</div>
-            <div class="meta">{{ site.data.bio.mickey.majorabr }}</div>
-            <div class="description">
-                <p>
-                    {{ site.data.bio.mickey.title }}
-                </p>
-            </div>
-        </div>
-    </a>
-
-    <a class="blue fluid card" href="{{ site.baseurl }}/about/members.html">
-        <div class="content">
-            <div class="header">{{ site.data.bio.kaeli.first }}</div>
-            <div class="meta">{{ site.data.bio.kaeli.majorabr }}</div>
-            <div class="description">
-                <p>
-                    {{ site.data.bio.kaeli.title }}
-                </p>
-            </div>
-        </div>
-    </a>
-
+    {% endfor %}
 </div>

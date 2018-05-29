@@ -4,43 +4,41 @@
 
 <div class="row">
     <div class="twelve wide column">
-        We are just a team of people dreaming about both bentos and developing video games. We formed our team at the University of Hawaiʻi at Mānoa to create a video game in which we saw potential in. We did our very best to create the video game and we do hope you will enjoy it as much as we made it.
+    {{ site.data.bio.basics.summary }}
     </div>
 </div>
 
 <div class="row">
-    <form action="{{ site.baseurl }}/about/">
-        <button class="ui inverted blue huge button">THE TEAM</button>
-    </form>
+    <a href="{{ site.baseurl }}/about/" class="ui inverted blue huge button">THE TEAM</a>
 </div>
 
-<div class="ui inverted divider"></div>
+<div class="ui hidden divider"></div>
 
 <div class="row">
     <div class="twelve wide column">
-        <div id="landingImg" class="ui fluid bordered image">
-            <img src="images/playtostartmenu.png" />
+        <img id="landingImg" class="ui fluid bordered image" src="images/playtostartmenu.png" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="twelve wide column">
+    {{ site.data.bio.playto.summary }}
+    </div>
+</div>
+
+<div class="row">
+    <div class="twelve wide column">
+        <div class="video-container">
+            <iframe src="{{ site.data.bio.playto.trailer }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="twelve wide column">
-        Plato, a ball of Play-Doh, was formed when a little girl mushed and molded a wide range of colored Play-Doh. She then left him aside, which made him lose his color. Join Plato in meeting and rescuing other toys, in his quest to find happiness and color in his life.
-    </div>
+    <a href="{{ site.baseurl }}/playto/" class="ui inverted blue huge button">LEARN MORE</a>
 </div>
 
-<div class="row">
-    <iframe width="1008" height="567" src="{{ site.data.bio.playto.trailer }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-</div>
-
-<div class="row">
-    <form action="{{ site.baseurl }}/playto">
-        <button class="ui inverted blue huge button">LEARN MORE</button>
-    </form>
-</div>
-
-<div class="ui inverted divider"></div>
+<div class="ui hidden divider"></div>
 
 <div class="row">
     <h1>GET IN TOUCH WITH US</h1>
@@ -48,12 +46,10 @@
 
 <div class="row">
     <div class="twelve wide column">
-        Many of us have either graduated or will be soon and would love to get a head start in our careers. If you love the effort that we made into our game and want to know what we did, please check us out and get in touch with us.
+    {{ site.data.bio.basics.message }}
     </div>
 </div>
 
 <div class="row">
-    <form action="{{ site.baseurl }}/about/members.html">
-        <button class="ui inverted blue huge button">CONTACT US</button>
-    </form>
+    <a href="{{ site.baseurl }}/about/members/" class="ui inverted blue huge button">CONTACT US</a>
 </div>

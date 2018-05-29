@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+        {% if page.id == 'webgl' %}
+        {% include head-unity.html %}
+        {% endif %}
+    </head>
+    <body id="body-{{ page.id | downcase }}">
+        <div id="cover{% if page.url == '/' %}-home{% endif %}">
+            <div class="ui centered stackable grid container">
+            {% include header.html %}
+            {% include menu.html %}
+            </div>
+            <div class="ui hidden divider"></div>
+            <div id="{{ page.title | downcase }}" class="ui centered stackable grid container content">
+            {{ content }}
+            </div>
+            <div class="ui hidden divider"></div>
+        </div>
+        {% include footermobile.html %}
+        {% include footer.html %}
+    </body>
+</html>

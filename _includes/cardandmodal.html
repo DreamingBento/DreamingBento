@@ -1,0 +1,66 @@
+<a class="ui raised card" id="{{ include.page.first | downcase }}">
+    <img class="ui image" src="{{ site.baseurl }}/{{ include.page.headshot }}" />
+    <div class="center aligned content">
+        <div class="header">{{ include.page.name }}</div>
+        <div class="meta">{{ include.page.major }}</div>
+    </div>
+    <div class="ui bottom attached {{ include.page.color }} button">
+        <i class="browser icon"></i>
+        About
+    </div>
+</a>
+
+<div id="{{ include.page.first | downcase }}Modal" class="ui modal">
+    <div class="header">
+        {{ include.page.name }}
+    </div>
+    <div class="image content">
+        <div class="ui image">
+            <img src="{{ site.baseurl }}/{{ include.page.toy }}">
+        </div>
+        <div class="description">
+            <div class="ui header">{{ include.page.major }} &mdash; {{ include.page.title }}</div>
+            <p>{{ include.page.bio }}</p>
+            <div class="ui segment">
+                <div class="ui relaxed animated list">
+                    {% for item in include.page.contact %}
+                    {% if item.email %}
+                    <div class="item">
+                        <div class="content">
+                            <i class="mail icon"></i> Email: <a href="mailto:{{ item.email }}">{{ item.email }}</a>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if item.website %}
+                    <div class="item">
+                        <div class="content">
+                            <i class="open folder icon"></i> My Website: <a href="{{ item.website }}">{{ item.website | remove: 'https://' }}</a>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if item.github %}
+                    <div class="item">
+                        <div class="content">
+                            <i class="github alternate icon"></i> Github: <a href="{{ item.github }}">{{ item.github | remove: 'https://github.com/' }}</a>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if item.linkedin %}
+                    <div class="item">
+                        <div class="content">
+                            <i class="linkedin square icon"></i> Linkedin: <a href="{{ site.linkedin }}">{{ include.page.name }}</a>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="actions">
+        <div class="ui positive right labeled icon button">
+            Close
+            <i class="x icon"></i>
+        </div>
+    </div>
+</div>
