@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body id="body-{{ page.id | downcase }}">
+        <div id="cover-header">
+            <div class="ui centered stackable grid container">
+            {% include menu.html %}
+            </div>
+        </div>
+        <div id="cover-error">
+            <div class="ui hidden divider"></div>
+            <div id="{{ page.title | downcase }}" class="ui stackable grid container content">
+            {{ content }}
+            </div>
+            <div class="ui hidden divider"></div>
+        </div>
+        {% include footererror.html %}
+    </body>
+</html>

@@ -41,6 +41,26 @@ header {
     padding-bottom: 25px;
 }
 
+#body-error {
+    background-image: url('/images/goku-eating.gif');
+    background-position:center center;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#cover-error {
+    background: rgba(255, 255, 255, 0.5);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: calc(104.75vh - 147.08px);
+    min-height: 625px;
+}
+
 footer {
     font-family: 'Lora', Georgia, serif;
     color: white;
