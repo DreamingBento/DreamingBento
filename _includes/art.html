@@ -1,0 +1,91 @@
+
+<div class="row">
+    <h1>Concept Art</h1>
+</div>
+
+<div class="ui hidden divider"></div>
+
+<div class="row">
+    <h2>Neil Tieves</h2>
+</div>
+
+<div class="ui centered stackable grid container">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/concept/neil/' %}
+        <div class="four wide column hover-image">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+<div class="ui hidden divider"></div>
+
+<div class="row">
+    <h2>Kayla Mae Abalos</h2>
+</div>
+
+<div class="ui centered stackable grid container">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/concept/doll/' %}
+        <div class="four wide column hover-image">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+<div class="ui centered stackable grid container">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/concept/kayla/' %}
+        <div class="four wide column hover-image">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+
+<div class="ui hidden divider"></div>
+
+<div class="row">
+    <h2>Kaeli Giron</h2>
+</div>
+
+<div class="ui centered stackable grid container">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/concept/kaeli/' %}
+        <div class="four wide column hover-image">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+<div class="ui hidden divider"></div>
+
+<div class="row">
+    <h1>Storyboard</h1>
+</div>
+
+<div class="ui centered stackable grid container">
+{% for image in site.static_files %}
+    {% if image.path contains '/images/storyboard/' %}
+        <div class="four wide column hover-image">
+            <a href="{{ site.baseurl}}{{ image.path }}">
+            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
+            </a>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+<div class="ui hidden divider"></div>

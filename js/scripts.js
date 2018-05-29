@@ -71,4 +71,6 @@ $(document).ready(function () {
         $('#gameplayVideo')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
     });
 
+    $('.ui.accordion').accordion();
+
 });

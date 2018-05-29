@@ -27,28 +27,28 @@
                     {% if item.email %}
                     <div class="item">
                         <div class="content">
-                            <i class="mail icon"></i> Email: <a href="mailto:{{ item.email }}">{{ item.email }}</a>
+                            <i class="mail icon"></i> Email: <a href="mailto:{{ item.email }}" target="_blank" class="link-font">{{ item.email }}</a>
                         </div>
                     </div>
                     {% endif %}
                     {% if item.website %}
                     <div class="item">
                         <div class="content">
-                            <i class="open folder icon"></i> My Website: <a href="{{ item.website }}">{{ item.website | remove: 'https://' }}</a>
+                            <i class="open folder icon"></i> My Website: <a href="{{ item.website }}" target="_blank" class="link-font">{{ item.website | remove: 'https://' }}</a>
                         </div>
                     </div>
                     {% endif %}
                     {% if item.github %}
                     <div class="item">
                         <div class="content">
-                            <i class="github alternate icon"></i> Github: <a href="{{ item.github }}">{{ item.github | remove: 'https://github.com/' }}</a>
+                            <i class="github alternate icon"></i> Github: <a href="{{ item.github }}" target="_blank" class="link-font">{{ item.github | remove: 'https://github.com/' }}</a>
                         </div>
                     </div>
                     {% endif %}
                     {% if item.linkedin %}
                     <div class="item">
                         <div class="content">
-                            <i class="linkedin square icon"></i> Linkedin: <a href="{{ site.linkedin }}">{{ include.page.name }}</a>
+                            <i class="linkedin square icon"></i> Linkedin: <a href="{{ item.linkedin }}" target="_blank" class="link-font">{{ include.page.name }}</a>
                         </div>
                     </div>
                     {% endif %}

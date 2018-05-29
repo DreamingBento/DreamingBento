@@ -12,12 +12,17 @@ nav.ui.menu, nav.ui.menu.inverted {
     box-shadow: none;
     border: none;
     background: rgba(0,0,0,0);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+.link-font {
+    color: #4E937A !important;
 }
 
 h1, h2 {
     font-family: 'Lora', Georgia, serif;
-    /*color: #83b6cc;*/
-    color: #0E6EB8;
 }
 
 header {
@@ -30,8 +35,8 @@ header {
     padding-bottom: 25px;
 }
 
-#cover-home {
-    background: rgba(0, 0, 0, 0.8);
+#cover-header {
+    background: #202020;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -115,26 +120,18 @@ button {
     font-size: 30px;
 }
 
-#home-slogan {
-    font-family: 'Lora', Georgia, serif;
-    font-style: italic;
-    font-size: 24px;
-    text-align: center;
-    line-height: 1.5;
-    color: white;
-}
-
 #slogan {
     font-family: 'Lora', Georgia, serif;
     font-style: italic;
     font-size: 24px;
     text-align: center;
     line-height: 1.5;
+    color: white;
+    letter-spacing: 0.05em;
 }
 
 #home {
     font-family: 'Lora', Georgia, serif;
-    color: white;
     margin-left: 1.25em;
     margin-right: 1.25em;
 }
@@ -179,7 +176,7 @@ button {
 
 @media screen and (min-width: 769px) {
 
-    #mobileFooter {
+    .mobile-only {
         display: none;
     }
 
@@ -187,8 +184,22 @@ button {
 
 @media screen and (max-width: 768px) {
 
-    #desktopFooter {
+    .desktop-only {
         display: none;
     }
 
+}
+
+.hover-image {
+    transition: all 250ms ease-in-out;
+}
+
+.hover-image:hover {
+    transform: scale(1.5);
+    z-index: 10;
+}
+
+.small-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

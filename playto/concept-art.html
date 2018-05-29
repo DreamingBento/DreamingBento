@@ -4,74 +4,11 @@ title: Playto Concept Art
 id: playto
 permalink: playto/concepts/
 ---
-<div class="row">
-    <h1>Concept Art</h1>
+
+<div class="desktop-only">
+{% include art.html %}
 </div>
 
-<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
-{% for image in site.static_files %}
-    {% if image.path contains '/images/concept/neil/' %}
-        <div class="five wide column">
-            <a href="{{ site.baseurl}}{{ image.path }}">
-            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
-            </a>
-        </div>
-    {% endif %}
-{% endfor %}
+<div class="mobile-only">
+{% include artmobile.html %}
 </div>
-
-<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
-{% for image in site.static_files %}
-    {% if image.path contains '/images/concept/doll/' %}
-        <div class="five wide column">
-            <a href="{{ site.baseurl}}{{ image.path }}">
-            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
-            </a>
-        </div>
-    {% endif %}
-{% endfor %}
-</div>
-
-<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
-{% for image in site.static_files %}
-    {% if image.path contains '/images/concept/kayla/' %}
-        <div class="five wide column">
-            <a href="{{ site.baseurl}}{{ image.path }}">
-            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
-            </a>
-        </div>
-    {% endif %}
-{% endfor %}
-</div>
-
-<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
-{% for image in site.static_files %}
-    {% if image.path contains '/images/concept/kaeli/' %}
-        <div class="five wide column">
-            <a href="{{ site.baseurl}}{{ image.path }}">
-            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
-            </a>
-        </div>
-    {% endif %}
-{% endfor %}
-</div>
-
-<div class="ui hidden divider"></div>
-
-<div class="row">
-    <h1>Storyboard</h1>
-</div>
-
-<div class="features ui centered grid noMargin" style="overflow-y:auto;white-space:nowrap;">
-{% for image in site.static_files %}
-    {% if image.path contains '/images/storyboard/' %}
-        <div class="five wide column">
-            <a href="{{ site.baseurl}}{{ image.path }}">
-            <img class="ui fluid bordered image" src="{{ site.baseurl }}{{ image.path }}" />
-            </a>
-        </div>
-    {% endif %}
-{% endfor %}
-</div>
-
-<div class="ui hidden divider"></div>
