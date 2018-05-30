@@ -223,3 +223,13 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+audio::-webkit-media-controls {
+    overflow: hidden !important
+}
+
+audio::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
+}
