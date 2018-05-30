@@ -37,6 +37,7 @@ header {
 #cover-header {
     background: #202020;
     padding-top: 25px;
+    padding-bttom: 25px;
 }
 
 #body-error {
