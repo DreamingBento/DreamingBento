@@ -32,13 +32,11 @@ header {
 #cover {
     background: rgba(255, 255, 255, 0.9);
     padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 #cover-header {
     background: #202020;
     padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 #body-error {
@@ -56,7 +54,6 @@ header {
 #cover-error {
     background: rgba(255, 255, 255, 0.5);
     padding-top: 25px;
-    padding-bottom: 25px;
     height: calc(104.75vh - 147.08px);
     min-height: 625px;
 }
