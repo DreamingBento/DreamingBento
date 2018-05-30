@@ -36,22 +36,32 @@
             </div>
 
             <div class="row">
-                <div class="five wide center aligned column">
+                <div class="four wide center aligned column">
                     {% if page.prev %}
-                    <a href="{{ site.basurl }}/{{ page.prev }}" class="ui inverted green button"><i class="left arrow icon"></i>Previous</a>
+                    <div class="desktop-only">
+                        <a href="{{ site.basurl }}/{{ page.prev }}" class="ui inverted green button"><i class="left arrow icon"></i>Previous</a>
+                    </div>
+                    <div class="mobile-only">
+                        <a href="{{ site.basurl }}/{{ page.prev }}" class="ui inverted green button">&nbsp;&nbsp;<i class="left arrow icon"></i></a>
+                    </div>
                     {% endif %}
                 </div>
-                <div class="five wide center aligned column">
-                    <a href="{{ site.basurl }}/playto/updates/" class="ui inverted green button"><i class="list icon"></i>Updates</a>
-                </div>
-                <div class="five wide center aligned column">
-                    {% if page.next %}
-                    <!--<div class="desktop-only">-->
-                        <a href="{{ site.basurl }}/{{ page.next }}" class="ui inverted green button">Next<i class="right arrow icon"></i></a>
-                    <!--</div>
+                <div class="four wide center aligned column">
+                    <div class="desktop-only">
+                        <a href="{{ site.basurl }}/playto/updates/" class="ui inverted green button"><i class="list icon"></i>Updates</a>
+                    </div>
                     <div class="mobile-only">
-                        <a href="{{ site.basurl }}/{{ page.next }}" class="ui inverted green button"><i class="right arrow icon"></i>Next</a>
-                    </div>-->
+                        <a href="{{ site.basurl }}/playto/updates/" class="ui inverted green button">&nbsp;&nbsp;<i class="list icon"></i></a>
+                    </div>
+                </div>
+                <div class="four wide center aligned column">
+                    {% if page.next %}
+                    <div class="desktop-only">
+                        <a href="{{ site.basurl }}/{{ page.next }}" class="ui inverted green button">Next<i class="right arrow icon"></i></a>
+                    </div>
+                    <div class="mobile-only">
+                        <a href="{{ site.basurl }}/{{ page.next }}" class="ui inverted green button"><i class="right arrow icon"></i>&nbsp;&nbsp;</a>
+                    </div>
                     {% endif %}
                 </div>
             </div>
