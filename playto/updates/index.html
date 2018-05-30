@@ -1,0 +1,15 @@
+---
+layout: default
+title: Updates!
+id: playto
+permalink: /playto/updates/
+---
+
+<div class="row">
+    <h1>Updates</h1>
+</div>
+
+{% assign update_pages = site.pages | where: "type", "update" | sort: "date" | reverse %}
+{% for page in update_pages %}
+{% include postcard.html page=page %}
+{% endfor %}
