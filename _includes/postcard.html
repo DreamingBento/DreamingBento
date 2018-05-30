@@ -1,15 +1,31 @@
 <div class="row">
-    <a href="{{ site.baseurl }}/{{ page.permalink }}" class="ui card">
-        <div class="center aligned content">
-            <div class="header">{{ include.page.title }}</div>
-            <div class="meta">{{ include.page.date | date_to_long_string }}</div>
-            <div class="left aligned description">
-                <p>{{ include.page.summary | truncate: 100 }}</p>
+    <div class="eight wide column">
+        <a href="{{ site.baseurl }}/{{ page.permalink }}" class="ui fluid card">
+            <div class="center aligned content">
+                <div class="header">{{ include.page.title }}</div>
+                <div class="meta">{{ include.page.date | date_to_long_string }}</div>
+                <div class="left aligned description">
+                    <p>{{ include.page.summary | truncate: 150 }}</p>
+                </div>
             </div>
-        </div>
-        <div class="ui bottom attached green button">
-            Read More
-            <i class="right arrow icon"></i>
-        </div>
-    </a>
+            <div class="ui bottom attached green button">
+                Read More
+                <i class="right arrow icon"></i>
+            </div>
+        </a>
+    </div>
 </div>
+<div class="ui hidden divider"></div>
+
+<!--<div class="row">
+    <div class="twelve wide column">
+        <h3 style="text-align:center;">{{ include.page.title }}</h3>
+        <p style="color: slategrey; text-align:center;">
+            {{ include.page.date | date_to_long_string }}
+        </p>
+        <p>
+            {{ include.page.summary | truncate: 150 }}
+        </p>
+    </div>
+</div>
+<div class="ui divider"></div>-->
