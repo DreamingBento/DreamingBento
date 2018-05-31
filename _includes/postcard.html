@@ -5,7 +5,7 @@
                 <div class="header">{{ include.page.title }}</div>
                 <div class="meta">{{ include.page.date | date_to_long_string }}</div>
                 <div class="left aligned description">
-                    <p>{{ include.page.summary | truncate: 150 }}</p>
+                    <p>{{ include.page.summary | remove: 'Hey everyone!<br /><br />' | truncate: 150 }}</p>
                 </div>
             </div>
             <div class="ui bottom attached green button">
