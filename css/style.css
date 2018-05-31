@@ -138,6 +138,13 @@ footer {
     background-attachment: fixed;
 }
 
+#menu-img {
+    height: 40px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
 .ten.wide.column, .five.wide.column {
     font-size: 18px;
 }
@@ -207,12 +214,20 @@ footer {
         display: none;
     }
 
+    #push-content {
+        height: 65.99px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
 
     .desktop-only {
         display: none;
+    }
+
+    #push-content {
+        height: 47.69px;
     }
 
 }
