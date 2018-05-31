@@ -7,17 +7,12 @@
         {% endif %}
     </head>
     <body id="body-{{ page.id | downcase }}">
-        <div id="cover-header">
-            <div class="ui centered stackable grid container">
-            {% include header.html %}
-            {% include menu.html %}
-            </div>
-        </div>
+        {% include menu.html %}
+        <div id="push-content"></div>
         <div id="cover">
-            <div class="ui hidden divider"></div>
-            <div id="{{ page.title | downcase }}" class="ui centered stackable grid container content">
+            <div id="{{ page.title | downcase }}" class="ui centered stackable grid container">
             {{ content }}
-            <div class="ui hidden divider"></div>
+            </div>
         </div>
         {% include footermobile.html %}
         {% include footer.html %}

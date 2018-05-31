@@ -8,8 +8,10 @@
         "website": "https://dreamingbento.github.io",
         "logo": "images/logo/dreamingbentos.png",
         "logoinverted": "images/logo/dreamingbentos-inverted.png",
+        "logogreen": "images/logo/dreamingbentos-green.png",
         "icon": "images/logo/db.png",
         "iconinverted": "images/logo/db-inverted.png",
+        "icongreen": "images/logo/db-green.png",
         "members":[
             {
                 "name": "Justin",
@@ -107,9 +109,9 @@
         "toy": "images/toys/kaeli.jpg"
     },
     "mickey":{
-        "name": "Michael (Mickey) Mangrobang",
+        "name": "Michael (Micky) Mangrobang",
         "first": "Michael",
-        "nickname": "Mickey Mangrobang",
+        "nickname": "Micky Mangrobang",
         "nickn": "Mickey",
         "major": "Computer Science",
         "majorabr": "CS",

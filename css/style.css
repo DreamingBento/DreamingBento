@@ -1,17 +1,17 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .ui.container {
     width: 100%;
 }
 
-nav.ui.menu, nav.ui.menu.inverted {
+nav.ui.menu.inverted {
     margin-top:0;
     box-shadow: none;
     border: none;
-    background: rgba(0,0,0,0);
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.1em;
@@ -21,23 +21,34 @@ nav.ui.menu, nav.ui.menu.inverted {
     color: #4E937A !important;
 }
 
-h1, h2 {
-    font-family: 'Lora', Georgia, serif;
-}
-
 header {
     padding-top: 25px;
 }
 
 #cover {
     background: rgba(255, 255, 255, 0.9);
-    padding-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 580px;
 }
 
-#cover-header {
-    background: #202020;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.ui.menu .ui.dropdown .menu {
+    border: 0;
+}
+
+.ui.menu .ui.dropdown .menu > .item {
+    background: #1B1C1D !important;
+    color: #4E937A !important;
+}
+
+.ui.menu .ui.dropdown .menu > .item:hover {
+    background: #4E937A !important;
+    color: #1B1C1D !important;
+}
+
+.ui.inverted.menu a.item:hover, .ui.inverted.menu .dropdown.item:hover, .ui.dropdown.item.link-font.active.visible {
+    background: #4E937A;
+    color: #1B1C1D !important;
 }
 
 #body-error {
@@ -54,20 +65,21 @@ header {
 
 #cover-error {
     background: rgba(255, 255, 255, 0.5);
-    padding-top: 25px;
-    height: calc(104.75vh - 147.08px);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: calc(100% - 46.58px - 69.7px);
     min-height: 625px;
 }
 
+footer.desktop-only {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 footer {
-    font-family: 'Lora', Georgia, serif;
     color: white;
     font-size: 14px;
     background: #202020;
-}
-
-button {
-    font-family: 'Karla', Arial, sans-serif;
 }
 
 #body-home {
@@ -139,7 +151,6 @@ button {
 }
 
 #slogan {
-    font-family: 'Lora', Georgia, serif;
     font-style: italic;
     font-size: 24px;
     text-align: center;
@@ -149,13 +160,11 @@ button {
 }
 
 #home {
-    font-family: 'Lora', Georgia, serif;
     margin-left: 1.25em;
     margin-right: 1.25em;
 }
 
 #about {
-    font-family: 'Lora', Georgia, serif;
     margin-left: 1.25em;
     margin-right: 1.25em;
 }

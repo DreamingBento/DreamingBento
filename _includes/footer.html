@@ -1,32 +1,60 @@
 <footer class="desktop-only">
     <div class="ui three equal width column stackable grid container">
         <div class="left aligned column">
-            <img class="ui tiny left floated image" src="{{ site.baseurl }}/{{ site.data.bio.basics.logoinverted }}" />
-            <div class="ui relaxed list" style="clear: left;">
-                <div class="item">
-                    Made using <a href="https://semantic-ui.com/" target="_blank"  class="link-font">Semantic UI</a> & <a href="https://jekyllrb.com/" target="_blank"  class="link-font">Jekyll</a>
+            <p>
+                <img class="ui tiny left floated image" src="{{ site.baseurl }}/{{ site.data.bio.basics.logogreen }}" />
+                Made using <a href="https://semantic-ui.com/" target="_blank"  class="link-font">Semantic UI</a> & <a href="https://jekyllrb.com/" target="_blank"  class="link-font">Jekyll</a>
+                <br />
+                Website last updated May 2018
+                <br />
+                Dreaming Bento <i class="white copyright outline icon"></i> 2017
+            </p>
+            <p>
+                *We neither own any of the background images used nor are we using them for commercial use. [<a href="{{ site.baseurl }}/reference/" class="link-font">Image Sources</a>]
+            </p>
+        </div>
+        <div class="column">
+            <div class="ui inverted header">Navigation</div>
+            <div class="ui inverted divider"></div>
+            <div class="ui two column grid">
+
+                <div class="column">
+                    <div class="ui list">
+                        <a href="{{ site.baseurl }}/" class="item link-font">Home</a>
+                        <a href="{{ site.baseurl }}/about/" class="item link-font">About</a>
+                        <a href="{{ site.baseurl }}/about/" class="item link-font">Team Members</a>
+                    </div>
                 </div>
-                <div class="item">
-                    Website last updated May 2018
+
+                <div class="column">
+                    <div class="ui list">
+                        <a href="{{ site.baseurl }}/news/" class="item link-font">All News</a>
+                        <a href="{{ site.baseurl }}/playto/" class="item link-font">PLAYTO</a>
+                        <a href="{{ site.baseurl }}/playto/play/" class="item link-font">Play PLAYTO Now</a>
+                    </div>
                 </div>
-                <div class="item">
-                    Dreaming Bento <i class="white copyright outline icon"></i> 2017
-                </div>
+
             </div>
         </div>
-        <div class="bottom aligned column">
-                <p>
-                    *We neither own any of the background images used nor are we using them for commercial use. This website is for a school project. [<a href="{{ site.baseurl }}/reference/" class="link-font">Image Sources</a>]
-                </p>
-        </div>
-        <div class="right aligned column">
-            <h3 class="ui inverted header">Contact</h3>
-            <div class="ui relaxed list">
-                    <a class="item link-font" href="mailto:{{ site.data.bio.neil.email }}">{{ site.data.bio.neil.name }}</a>
-                    <a class="item link-font" href="mailto:{{ site.data.bio.kayla.email }}">{{ site.data.bio.kayla.name }}</a>
-                    <a class="item link-font" href="mailto:{{ site.data.bio.justin.email }}">{{ site.data.bio.justin.name }}</a>
-                    <a class="item link-font" href="mailto:{{ site.data.bio.kaeli.email }}">{{ site.data.bio.kaeli.name }}</a>
-                    <a class="item link-font" href="mailto:{{ site.data.bio.mickey.email }}">{{ site.data.bio.mickey.nickname }}</a>
+        <div class="left aligned column">
+            <div class="ui inverted header">Contact</div>
+            <div class="ui inverted divider"></div>
+            <div class="ui two column grid">
+
+                <div class="column">
+                    <div class="ui list">
+                        <a class="item link-font" href="mailto:{{ site.data.bio.neil.email }}">{{ site.data.bio.neil.name }}</a>
+                        <a class="item link-font" href="mailto:{{ site.data.bio.mickey.email }}">{{ site.data.bio.mickey.nickname }}</a>
+                        <a class="item link-font" href="mailto:{{ site.data.bio.justin.email }}">{{ site.data.bio.justin.name }}</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui list">
+                        <a class="item link-font" href="mailto:{{ site.data.bio.kayla.email }}">{{ site.data.bio.kayla.name }}</a>
+                        <a class="item link-font" href="mailto:{{ site.data.bio.kaeli.email }}">{{ site.data.bio.kaeli.name }}</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

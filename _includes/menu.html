@@ -1,17 +1,41 @@
-<nav class="ui top three item borderless stackable menu">
-    <a class="item link-font" href="{{ site.baseurl }}/">DREAMING BENTO</a>
-    <div class="ui floating dropdown item link-font">ABOUT
+<nav class="ui fixed borderless stackable inverted menu">
+    <div class="mobile-only">
+        <a href="{{ site.baseurl }}/" class="item link-font">DREAMING BENTO</a>
+    </div>
+    <div class="desktop-only">
+        <a href="{{ site.baseurl }}/" class="item" id="home-item">
+            <img id="menu-img" src="{{ site.baseurl }}/{{ site.data.bio.basics.logogreen }}" data-src="{{ site.baseurl }}/{{ site.data.bio.basics.logogreen }}" data-hover="{{ site.baseurl }}/{{ site.data.bio.basics.logo }}" />
+        </a>
+    </div>
+    <div class="ui dropdown item link-font">PLAYTO
         <div class="menu">
-            <a class="item link-font" href="{{ site.baseurl }}/about/">THE TEAM</a>
-            <a class="item link-font" href="{{ site.baseurl }}/about/members/">THE MEMBERS</a>
+            <a href="{{ site.baseurl }}/playto/" class="item link-font">ABOUT PLAYTO</a>
+            <a href="{{ site.baseurl }}/playto/concepts/" class="item link-font">CONCEPT ART</a>
+            <a href="{{ site.baseurl }}/playto/play/" class="item link-font">PLAY NOW</a>
         </div>
     </div>
-    <div class="ui floating dropdown item link-font">PLAYTO
+    <div class="ui dropdown item link-font">NEWS
         <div class="menu">
-            <a class="item link-font" href="{{ site.baseurl }}/playto/">ABOUT</a>
-            <a class="item link-font" href="{{ site.baseurl }}/playto/concepts/">CONCEPT ART</a>
-            <a class="item link-font" href="{{ site.baseurl }}/playto/updates/">UPDATES</a>
-            <a class="item link-font" href="{{ site.baseurl }}/playto/play/">PLAY NOW</a>
+            <a href="{{ site.baseurl }}/news/" class="item link-font">ALL NEWS</a>
+            <a href="{{ site.baseurl }}/news/" class="item link-font">PLAYTO UPDATES</a>
+            <a href="{{ site.baseurl }}/news/" class="item link-font">DREAMING BENTO UPDATES</a>
+        </div>
+    </div>
+    <div class="ui dropdown item link-font">ABOUT
+        <div class="menu">
+            <a href="{{ site.baseurl }}/about/" class="item link-font">DREAMING BENTO</a>
+            <a href="{{ site.baseurl }}/about/members/" class="item link-font">TEAM MEMBERS</a>
         </div>
     </div>
 </nav>
+
+<style>
+
+#menu-img {
+    height: 40px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+</style>

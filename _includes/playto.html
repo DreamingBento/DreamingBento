@@ -6,8 +6,10 @@
 
 <div class="centered stackable row">
     <div class="five wide left aligned column">
-        <h2>What is <em>Playto</em>?</h2>
-        A 2D problem-solving / platformer game centered around a grumpy lump of “play dough” who wants to be happy. The play dough can shift into three different shapes: a ball that’s able to roll side to side, an invulnerable block that concentrates his mass so he can drop down, and a longer stick shape that lets the play dough climb up to higher platforms or form bridges across gaps.
+        <h2>What is <em>PLAYTO</em>?</h2>
+        <p>
+            A 2D problem-solving / platformer game centered around a grumpy lump of “play dough” who wants to be happy. The play dough can shift into three different shapes: a ball that’s able to roll side to side, an invulnerable block that concentrates his mass so he can drop down, and a longer stick shape that lets the play dough climb up to higher platforms or form bridges across gaps.
+        </p>
     </div>
 
     <div class="column">
@@ -16,41 +18,53 @@
 
     <div class="five wide left aligned column">
         <h2>The Story</h2>
-        A 2D problem-solving / platformer game centered around a grumpy lump of “play dough” who wants to be happy. The play dough can shift into three different shapes: a ball that’s able to roll side to side, an invulnerable block that concentrates his mass so he can drop down, and a longer stick shape that lets the play dough climb up to higher platforms or form bridges across gaps.
+        <p>
+            {{ site.data.bio.playto.summary }}
+        </p>
     </div>
 </div>
 
 <div class="ui hidden divider"></div>
 
 <div class="row">
-    <h1>Play Playto Now!</h1>
+    <h1>Play PLAYTO Now!</h1>
 </div>
 
 <div class="centered row">
-    <div class="five wide left aligned column">
+    <div class="five wide center aligned column">
         <h2>Play in Browser!</h2>
-        Play the game through your browser!<br /><br />
-        <form action="{{ site.baseurl }}/playto/play/">
-            <button class="ui green button">PLAY NOW!</button>
-        </form>
-        <br />*Requires WebGL support.
+        <p>
+            Play the game through your browser!
+            <br />
+            <br />
+            <a href="{{ site.baseurl }}/playto/play/" class="ui green button">PLAY NOW!</a>
+            <br />
+            <br />
+            *<em>Requires WebGL support</em>.
+        </p>
 
         <!--<h2>Download!</h2>
-        Download the game onto your computer!
-        <br />
-        <br />
-        <button class="ui blue button">WINDOWS</button>
-        <br />
-        <br />*Not available yet.-->
+        <p>
+            Download the game onto your computer!
+            <br />
+            <br />
+            <button class="ui blue button">WINDOWS</button>
+            <br />
+            <br />*<em>Not available yet</em>.
+        </p>-->
+
     </div>
 
-    <div class="five wide left aligned column">
+    <div class="five wide center aligned column">
         <h2>Watch!</h2>
-        <a id="playtoImg" class="ui centered medium circular bordered image">
-            <img src="/images/screencap.png"/>
-        </a>
-        <br />
-        Can't play in browser? <!--Trouble downloading? -->Watch the video demo walkthrough!
+        <p>
+            <a id="playtoImg" class="ui centered medium circular bordered image">
+                <img src="/images/screencap.png"/>
+            </a>
+            <br />
+            <br />
+            Can't play in browser?<!-- Trouble downloading? --><br />Watch the video demo walkthrough!
+        </p>
     </div>
 </div>
 
@@ -62,16 +76,27 @@
 
 <div class="row">
     <div class="ten wide left aligned column">
-        Here are some of the concept art of Playto.
+        <p>
+            Here are some of the concept arts for PLAYTO.
+        </p>
     </div>
 </div>
 
-<div class="centered row">
+<div class="row">
     <div class="six wide column">
         <img class="ui fluid bordered image" src="/images/concept/neil/001.png" />
     </div>
     <div class="six wide column">
-        <img class="ui fluid bordered image" src="/images/concept/neil/002.png" />
+        <img class="ui fluid bordered image" src="/images/concept/kayla/RainbowBunBearsprites.png" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="six wide column">
+        <img class="ui fluid bordered image" src="/images/concept/kaeli/004.png" />
+    </div>
+    <div class="six wide column">
+        <img class="ui fluid bordered image" src="/images/storyboard/010.jpg" />
     </div>
 </div>
 
@@ -87,12 +112,12 @@
 
 <div class="row">
     <div class="ten wide left aligned column">
-        Like our game? Keep up with our blog updates as we continue to develop the game.
+        <p>
+            Like our game? Keep up with our blog updates as we continue to develop the game.
+        </p>
     </div>
 </div>
 
 <div class="row">
     <a href="{{ site.baseurl }}/playto/updates/" class="ui large green button">READ MORE</a>
 </div>
-
-<div class="ui hidden divider"></div>

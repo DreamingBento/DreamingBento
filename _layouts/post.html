@@ -4,71 +4,66 @@
         {% include head.html %}
     </head>
     <body id="body-playto">
-        <div id="cover-header">
-            <div class="ui centered stackable grid container">
-            {% include header.html %}
-            {% include menu.html %}
-            </div>
-        </div>
+        {% include menu.html %}
+        <div id="push-content"></div>
+        <!--{% include header.html %}-->
         <div id="cover">
-            <div class="ui hidden divider"></div>
-            <div id="{{ page.title | downcase }}" class="ui centered grid container content">
+            <div id="{{ page.title | downcase }}" class="ui centered grid container">
 
-            <div class="twelve wide column">
-                {{ page.date | date_to_long_string }}
-                <h2>{{ page.title }}</h2>
-            </div>
-
-            <div class="twelve wide column">
-                {{ content }}
-            </div>
-
-            <div class="twelve wide column">
-                <div class="ui divider"></div>
-                <p>
-                    <img class="ui left floated mini image" src="{{ site.baseurl }}/{{ site.data.bio.basics.icon }}" />
-                    &mdash;{{ page.author }} | <a href="mailto:{{ page.email }}" class="link-font">{{ page.email }}</a>
-                    <br />
+                <div class="twelve wide column">
                     {{ page.date | date_to_long_string }}
-                    <br />
-                    <a href="{{ site.baseurl }}/" class="link-font">@dreamingbento</a>
-                </p>
+                    <h2>{{ page.title }}</h2>
+                </div>
+
+                <div class="twelve wide column">
+                    {{ content }}
+                </div>
+
+                <div class="twelve wide column">
+                    <div class="ui divider"></div>
+                    <p>
+                        <img class="ui left floated mini image" src="{{ site.baseurl }}/{{ site.data.bio.basics.icon }}" />
+                        &mdash;{{ page.author }} | <a href="mailto:{{ page.email }}" class="link-font">{{ page.email }}</a>
+                        <br />
+                        {{ page.date | date_to_long_string }}
+                        <br />
+                        <a href="{{ site.baseurl }}/" class="link-font">@dreamingbento</a>
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="five wide center aligned column">
+                        {% if page.prev %}
+                        <div class="desktop-only">
+                            <a href="{{ site.basurl }}/news/{{ page.prev }}" class="ui inverted green button"><i class="left arrow icon"></i>Previous</a>
+                        </div>
+                        <div class="mobile-only">
+                            <a href="{{ site.basurl }}/news/{{ page.prev }}" class="ui inverted green button"><i class="left arrow icon"></i></a>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="five wide center aligned column">
+                        <div class="desktop-only">
+                            <a href="{{ site.basurl }}/news/" class="ui inverted green button"><i class="list icon"></i>Updates</a>
+                        </div>
+                        <div class="mobile-only">
+                            <a href="{{ site.basurl }}/news/" class="ui inverted green button"><i class="list icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="five wide center aligned column">
+                        {% if page.next %}
+                        <div class="desktop-only">
+                            <a href="{{ site.basurl }}/news/{{ page.next }}" class="ui inverted green button">Next<i class="right arrow icon"></i></a>
+                        </div>
+                        <div class="mobile-only">
+                            <a href="{{ site.basurl }}/news/{{ page.next }}" class="ui inverted green button"><i class="right arrow icon"></i></a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+
             </div>
 
-            <div class="row">
-                <div class="five wide center aligned column">
-                    {% if page.prev %}
-                    <div class="desktop-only">
-                        <a href="{{ site.basurl }}/{{ page.prev }}" class="ui inverted green button"><i class="left arrow icon"></i>Previous</a>
-                    </div>
-                    <div class="mobile-only">
-                        <a href="{{ site.basurl }}/{{ page.prev }}" class="ui inverted green button"><i class="left arrow icon"></i></a>
-                    </div>
-                    {% endif %}
-                </div>
-                <div class="five wide center aligned column">
-                    <div class="desktop-only">
-                        <a href="{{ site.basurl }}/playto/updates/" class="ui inverted green button"><i class="list icon"></i>Updates</a>
-                    </div>
-                    <div class="mobile-only">
-                        <a href="{{ site.basurl }}/playto/updates/" class="ui inverted green button"><i class="list icon"></i></a>
-                    </div>
-                </div>
-                <div class="five wide center aligned column">
-                    {% if page.next %}
-                    <div class="desktop-only">
-                        <a href="{{ site.basurl }}/{{ page.next }}" class="ui inverted green button">Next<i class="right arrow icon"></i></a>
-                    </div>
-                    <div class="mobile-only">
-                        <a href="{{ site.basurl }}/{{ page.next }}" class="ui inverted green button"><i class="right arrow icon"></i></a>
-                    </div>
-                    {% endif %}
-                </div>
-            </div>
-
-            </div>
-
-            <div class="ui hidden divider"></div>
         </div>
         {% include footermobile.html %}
         {% include footer.html %}
