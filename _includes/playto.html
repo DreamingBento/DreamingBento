@@ -4,6 +4,8 @@
     </div>
 </div>
 
+<div class="ui hidden divider"></div>
+
 <div class="centered stackable row">
     <div class="five wide left aligned column">
         <h2>What is <em>PLAYTO</em>?</h2>
@@ -22,6 +24,29 @@
             {{ site.data.bio.playto.summary }}
         </p>
     </div>
+</div>
+
+<div class="row">
+    <h1>Updates</h1>
+</div>
+
+{% assign update_pages = site.pages | where: "class", "game" | sort: "date" | reverse %}
+<div class="row">
+{% for page in update_pages limit: 2 %}
+    {% include postcard.html page=page size='six' %}
+{% endfor %}
+</div>
+
+<div class="row">
+    <div class="ten wide left aligned column">
+        <p>
+            Like our game? Read more about our updates to the game.
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <a href="{{ site.baseurl }}/playto/updates/" class="ui large green button">READ MORE</a>
 </div>
 
 <div class="ui hidden divider"></div>
@@ -103,22 +128,4 @@
 
 <div class="row">
     <a href="{{ site.baseurl }}/playto/concepts/" class="ui large green button">VIEW MORE</a>
-</div>
-
-<div class="ui hidden divider"></div>
-
-<div class="row">
-    <h1>Updates</h1>
-</div>
-
-<div class="row">
-    <div class="ten wide left aligned column">
-        <p>
-            Like our game? Keep up with our blog updates as we continue to develop the game.
-        </p>
-    </div>
-</div>
-
-<div class="row">
-    <a href="{{ site.baseurl }}/playto/updates/" class="ui large green button">READ MORE</a>
 </div>

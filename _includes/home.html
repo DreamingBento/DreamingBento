@@ -62,6 +62,23 @@
 <div class="ui hidden divider"></div>
 
 <div class="row">
+    <h1>NEWS</h1>
+</div>
+
+{% assign update_pages = site.pages | where: "type", "update" | sort: "date" | reverse %}
+<div class="row">
+{% for page in update_pages limit: 2 %}
+    {% include postcard.html page=page size='six' %}
+{% endfor %}
+</div>
+
+<div class="row">
+    <a href="{{ site.baseurl }}/news/" class="ui inverted green huge button">READ MORE</a>
+</div>
+
+<div class="ui hidden divider"></div>
+
+<div class="row">
     <h1>GET IN TOUCH WITH US</h1>
 </div>
 

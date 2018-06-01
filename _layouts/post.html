@@ -6,9 +6,15 @@
     <body id="body-playto">
         {% include menu.html %}
         <div id="push-content"></div>
-        <!--{% include header.html %}-->
         <div id="cover">
-            <div id="{{ page.title | downcase }}" class="ui centered grid container">
+            <div class="ui centered grid container">
+                {% include header.html %}
+
+                <div class="row">
+                    <div class="twelve wide column">
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
 
                 <div class="twelve wide column">
                     {{ page.date | date_to_long_string }}

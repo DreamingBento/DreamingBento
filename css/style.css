@@ -21,15 +21,11 @@ nav.ui.menu.inverted {
     color: #4E937A !important;
 }
 
-header {
-    padding-top: 25px;
-}
-
 #cover {
     background: rgba(255, 255, 255, 0.9);
     padding-top: 50px;
     padding-bottom: 50px;
-    min-height: 580px;
+    min-height: 782px;
 }
 
 .ui.menu .ui.dropdown .menu {
@@ -67,7 +63,7 @@ header {
     background: rgba(255, 255, 255, 0.5);
     padding-top: 50px;
     padding-bottom: 50px;
-    height: calc(100% - 46.58px - 69.7px);
+    height: calc(100% - 46.58px - 66px);
     min-height: 625px;
 }
 
@@ -91,7 +87,7 @@ footer {
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 #body-about {
@@ -159,21 +155,11 @@ footer {
 
 #slogan {
     font-style: italic;
-    font-size: 24px;
-    text-align: center;
-    line-height: 1.5;
-    color: white;
+    font-size: 14px;
     letter-spacing: 0.05em;
-}
-
-#home {
-    margin-left: 1.25em;
-    margin-right: 1.25em;
-}
-
-#about {
-    margin-left: 1.25em;
-    margin-right: 1.25em;
+    position: absolute;
+    bottom: 55px;
+    right: 0;
 }
 
 #quote-block {

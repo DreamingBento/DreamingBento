@@ -2,14 +2,16 @@
 layout: default
 title: News
 id: playto
-permalink: /news/
+permalink: news/
 ---
 
 <div class="row">
-    <h1>All News</h1>
+    <h1>News</h1>
 </div>
 
 {% assign update_pages = site.pages | where: "type", "update" | sort: "date" | reverse %}
 {% for page in update_pages %}
-{% include postcard.html page=page %}
+<div class="row">
+    {% include postcard.html page=page size='eight' %}
+</div>
 {% endfor %}

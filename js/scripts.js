@@ -73,4 +73,16 @@ $(document).ready(function () {
 
     $('.ui.accordion').accordion();
 
+    //$('#push-content').css('height', $('nav').height());
+    //$(window).resize(function() {
+    //    $('#push-content').height($('nav').height());
+    //});
+
+    //$(window).trigger('resize');
+    $('#home-item').mouseover(function () {
+        $('#menu-img').attr('src', $('#menu-img').data('hover'));
+    }).mouseout(function () {
+        $('#menu-img').attr('src', $('#menu-img').data('src'));
+    });
+
 });
