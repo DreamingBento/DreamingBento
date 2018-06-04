@@ -11,21 +11,21 @@
                 {% include header.html %}
 
                 <div class="row">
-                    <div class="twelve wide column">
+                    <div class="sixteen wide column">
                         <div class="ui divider"></div>
                     </div>
                 </div>
 
-                <div class="twelve wide column">
+                <div class="sixteen wide column">
                     {{ page.date | date_to_long_string }}
                     <h2>{{ page.title }}</h2>
                 </div>
 
-                <div class="twelve wide column">
+                <div class="sixteen wide column">
                     {{ content }}
                 </div>
 
-                <div class="twelve wide column">
+                <div class="sixteen wide column">
                     <div class="ui divider"></div>
                     <p>
                         <img class="ui left floated mini image" src="{{ site.baseurl }}/{{ site.data.bio.basics.icon }}" />
@@ -37,8 +37,8 @@
                     </p>
                 </div>
 
-                <div class="row">
-                    <div class="five wide center aligned column">
+                <div class="equal width row">
+                    <div class="center aligned column">
                         {% if page.prev %}
                         <div class="desktop-only">
                             <a href="{{ site.basurl }}/news/{{ page.prev }}" class="ui inverted green button"><i class="left arrow icon"></i>Previous</a>
@@ -48,7 +48,7 @@
                         </div>
                         {% endif %}
                     </div>
-                    <div class="five wide center aligned column">
+                    <div class="center aligned column">
                         <div class="desktop-only">
                             <a href="{{ site.basurl }}/news/" class="ui inverted green button"><i class="list icon"></i>Updates</a>
                         </div>
@@ -56,7 +56,7 @@
                             <a href="{{ site.basurl }}/news/" class="ui inverted green button"><i class="list icon"></i></a>
                         </div>
                     </div>
-                    <div class="five wide center aligned column">
+                    <div class="center aligned column">
                         {% if page.next %}
                         <div class="desktop-only">
                             <a href="{{ site.basurl }}/news/{{ page.next }}" class="ui inverted green button">Next<i class="right arrow icon"></i></a>
